@@ -72,3 +72,24 @@ Now circular!
     ```
 
 Note: now the sequence is trimmed, and if annotation is run one more time, MitoFinder does not find evidence of circularization.
+
+
+## Transcriptome analysis
+
+
+Consensus from RNAseq reads using *O. albinus* mt genome assembly as a reference.
+
+```
+## Oal
+hisat2-build Oal_mt_contig.fa OalD2_index
+hisat2 -x OalD2_index -1 Oal_SRR3467085_filt_1.fq.gz -2 Oal_SRR3467085_filt_2.fq.gz -p 6 | samtools view --threads 2 -bS | samtools sort --threads 2 -o OalSRA2OalD2.bam
+samtools consensus -f fasta -o OalSRR_consensus.fasta OalSRA2OalD2.bam --min-depth 10
+
+## Ofl
+hisat2-build Ofl_mt_contig.fa OflD2_index
+java -jar trimmomatic-0.36.jar PE ${PATH_TO_READS_DIR}/$read1 ${PATH_TO_READS_DIR}/$read2 -baseout ${PATH_TO_OUTPUT_DIR}/$output CROP:140 HEADCROP:20 LEADING:15 TRAILING:15 SLIDINGWINDOW:4:20 MINLEN:36
+java -jar /usr/share/java/trimmomatic.jar PE SRR3467086_1.fastq.gz SRR3467086_2.fastq.gz -baseout Ofl_SRR3467086_trim CROP:140 HEADCROP:20 LEADING:15 TRAILING:15 SLIDINGWINDOW:4:20 MINLEN:36
+hisat2 -x OalD2_index -1 Ofl_SRR3467086_trim_1P -2 Ofl_SRR3467086_trim_2P -p 6 | samtools view --threads 2 -bS | samtools sort --threads 2 -o OflSRA2OalD2.bam
+samtools consensus -f fasta -o OfllSRR_consensus.fasta OflSRA2OalD2.bam --min-depth 10
+```
+
