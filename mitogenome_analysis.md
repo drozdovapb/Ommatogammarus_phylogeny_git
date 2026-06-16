@@ -56,10 +56,9 @@ Running MitoBIM:
 ```
 MITObim.pl -start 1 -end 30 -sample Oal_D2 -ref Oal_D2_mf -readpool ../../data/Oal_D2_filt_interleaved.fastq.gz --kbait 31 --quick ../01_Oal_2Ecy/Oal_2Ecy_mf/Oal_2Ecy_mf_MitoFinder_megahit_mitfi_Final_Results/Oal_2Ecy_mf_mtDNA_contig.fasta
 ```
-
 Returning to MitoFinder for annotation:
 ```
-mitofinder -a iteration11/Oal_D2-Oal_D2_mf-it11_noIUPAC.fasta -r ../../refs/KX341964_Ecy_mt_complete_genome.gb -o 5 -j Oal_D2_mf_mb
+(mitofinder) mitofinder -a iteration11/Oal_D2-Oal_D2_mf-it11_noIUPAC.fasta -r ../../refs/KX341964_Ecy_mt_complete_genome.gb -o 5 -j Oal_D2_mf_mb
 ```
 
 Now circular!
@@ -71,11 +70,34 @@ Now circular!
     15 genes were found in mtDNA_contig
     ```
 
-Note: now the sequence is trimmed, and if annotation is run one more time, MitoFinder does not find evidence of circularization.
+But we need to set the starting point straight!
+!!! Standardize (starting from tRNA-Phe)
+```
+(mtgrasp) drozdovapb@server:~/mtgrasp_standardize$ mtgrasp_standardize.py -i Oal_D2_mf_mb_mtDNA_contig.fasta -o Oal_D2_mf_mb -c 5 -mp mitos_python_scripts/ -p OalD2_mf_mb_mtg_mtDNA_contig.fasta
+Start standardization for Oal_D2_mf_mb_mtDNA_contig.fasta
+Start standardizing the start site of the mitochondrial genome
+The mitochondrial genetic code is: 5
+Output: missing:rrnL OL
+duplicated:2x rrnS 4x OH
+tRNA-Phe Gene Found!
+```
+(note to self: had to copy mitos_python_scripts here & manually correct first lines in two of them to get the whole thing to work)
+
+Returning to MitoFinder for annotation:
+```
+(mitofinder) mitofinder -a OalD2_mf_mb_mtg_mtDNA_contig.fasta.final-mtgrasp_v1.1.8-assembly.fa -r ../../NCBI/KX341964_Ecy_mt_complete_genome.gb -o 5 -j Oal_D2_mf_mb_mtg
+```
+15 genes found.
+
+This was an example for Oal; the other two species were processed in the exact same manner.
+
 
 
 ## Transcriptome analysis
 
+the main idea: the same way of assembling does not work with transcriptomes!!
+
+(not sure should be included)
 
 Consensus from RNAseq reads using *O. albinus* mt genome assembly as a reference.
 
@@ -92,4 +114,7 @@ java -jar /usr/share/java/trimmomatic.jar PE SRR3467086_1.fastq.gz SRR3467086_2.
 hisat2 -x OalD2_index -1 Ofl_SRR3467086_trim_1P -2 Ofl_SRR3467086_trim_2P -p 6 | samtools view --threads 2 -bS | samtools sort --threads 2 -o OflSRA2OalD2.bam
 samtools consensus -f fasta -o OfllSRR_consensus.fasta OflSRA2OalD2.bam --min-depth 10
 ```
+Samtools consensus is some BS!!!
+
+(base) drozdovapb@server:~/mt_genomes/Annotation_by_transcriptomes$ samtools consensus -d 100 -c 0.75 -f fasta -a --reference Oal_mt_contig.fa -o OflSRA_mt_bt_consensus_4.fasta OflSRR_2OalD2.sorted.bam
 
