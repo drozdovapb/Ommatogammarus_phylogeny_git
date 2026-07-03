@@ -1,15 +1,15 @@
 This folder contains reproducible code and valuable intermediate results (including assemblies and annotation) analysis of mitochondrial genomes, nuclear rDNA loci, and 8 PGCs (the latter were not used in the manuscript)
 
-#### 1. mitogenomes
+#### 1. Mitogenomes
 
 ## Analysis of mitochondrial genomes
 
-Mt genome assembly (??and annotation??) was performed for the three species using the same pipeline but is shown for _O. albinus_ as an example.
+Mt genome assembly and annotation was performed for the three species using the same pipeline but is shown for _O. albinus_ as an example.
 
 # Dependencies
-  * bbtools v...
   * MitoFinder
-  * MitoBIM
+  * MITObim
+  * MtGrasp
 
 # Genome assembly
 
@@ -97,33 +97,9 @@ This was an example for Oal; the other two species were processed in the exact s
 
 
 
-## Transcriptome analysis
-
-the main idea: the same way of assembling does not work with transcriptomes!!
-
-(not sure should be included)
-
-Consensus from RNAseq reads using *O. albinus* mt genome assembly as a reference.
-
-```
-## Oal
-hisat2-build Oal_mt_contig.fa OalD2_index
-hisat2 -x OalD2_index -1 Oal_SRR3467085_filt_1.fq.gz -2 Oal_SRR3467085_filt_2.fq.gz -p 6 | samtools view --threads 2 -bS | samtools sort --threads 2 -o OalSRA2OalD2.bam
-samtools consensus -f fasta -o OalSRR_consensus.fasta OalSRA2OalD2.bam --min-depth 10
-
-## Ofl
-hisat2-build Ofl_mt_contig.fa OflD2_index
-java -jar trimmomatic-0.36.jar PE ${PATH_TO_READS_DIR}/$read1 ${PATH_TO_READS_DIR}/$read2 -baseout ${PATH_TO_OUTPUT_DIR}/$output CROP:140 HEADCROP:20 LEADING:15 TRAILING:15 SLIDINGWINDOW:4:20 MINLEN:36
-java -jar /usr/share/java/trimmomatic.jar PE SRR3467086_1.fastq.gz SRR3467086_2.fastq.gz -baseout Ofl_SRR3467086_trim CROP:140 HEADCROP:20 LEADING:15 TRAILING:15 SLIDINGWINDOW:4:20 MINLEN:36
-hisat2 -x OalD2_index -1 Ofl_SRR3467086_trim_1P -2 Ofl_SRR3467086_trim_2P -p 6 | samtools view --threads 2 -bS | samtools sort --threads 2 -o OflSRA2OalD2.bam
-samtools consensus -f fasta -o OfllSRR_consensus.fasta OflSRA2OalD2.bam --min-depth 10
-```
-Samtools consensus is some BS!!!
-
-(base) drozdovapb@server:~/mt_genomes/Annotation_by_transcriptomes$ samtools consensus -d 100 -c 0.75 -f fasta -a --reference Oal_mt_contig.fa -o OflSRA_mt_bt_consensus_4.fasta OflSRR_2OalD2.sorted.bam
-
 ## Trees
 
+```
 ls ./0_assemblies/NCBI/
 
 ls ./0_assemblies/new/
@@ -228,7 +204,7 @@ for file in *fasta; do mafft --auto $file >$file.aln; done
 drozdovapb@drozdovapb-HP-17-by1xxx:Ommx3_Evex3_Ecy_Avi_Gla$ for file in *aln; do trimal -in $file -out $file.trim.aln -automated1; done
 
 iqtree3 -p trimmed/ -m TEST+MERGE -mset JC,HKY,TN93,GTR -bb 1000 -alrt 1000 -abayes -pre 9spwGla_mafft_trimmed
-
+```
 
 
 
@@ -257,4 +233,4 @@ ln -s /media/main/genome/Romanova_Sherbakov_HiSeq/Avict2.fq_2.gz Avict2_2.fq
   545  ln -s /media/main/genome/Romanova_Sherbakov_HiSeq/Evi.fq_2.gz Evi_2.fq
   546  /media/secondary/apps/GetOrganelle-1.7.4.1/get_organelle_from_reads.py -1 Evi_1.fq -2 Evi_2.fq -s Gnek_scaf23_rDNA.fasta -o Evi_Gnek -F fungus_nr --overwrite
 ```
-Then annotated with barrnap in Usegalaxy.eu (thanks!!!)
+Then annotated with barrnap in Usegalaxy.eu; used 18S, 5.8S, and 28S. Extracted ITSs manually.
