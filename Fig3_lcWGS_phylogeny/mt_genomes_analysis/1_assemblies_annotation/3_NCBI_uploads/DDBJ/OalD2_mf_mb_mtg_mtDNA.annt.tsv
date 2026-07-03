@@ -1,0 +1,101 @@
+COMMON	SUBMITTER		ab_name	Drozdova,P.
+			ab_name	Telnes,E.
+			contact	Polina Drozdova
+			email	drozdovapb@gmail.com
+			institute	Irkutsk State University
+			department	Institute of Lake Baikal Biology
+			country	Russia
+			city	Irkutsk
+			street	Lenin str. 3
+			zip	664025
+	REFERENCE		title	The gems of Lake Baikal: Taxonomic relationships within scavenger amphipods of the genus Ommatogammarus or family Ommatogammaridae revisited with genomic data and DNA barcoding
+			ab_name	Telnes,E.
+			ab_name	Shirokova,Y.
+			ab_name	Mutin,A.
+			ab_name	Rzhechitskiy,Y.
+			ab_name	Zolotovskaya,E.
+			ab_name	Kondrateva,E.
+			ab_name	Gurkov,A.
+			ab_name	Govorukhina,E.
+			ab_name	Timofeyev,M.
+			ab_name	Drozdova,P.
+			status	Unpublished
+	source	1..16466	organism	Ommatogammarus albinus
+			organelle	mitochondrion
+			mol_type	genomic DNA
+			geo_loc_name	Russia: Lake Baikal, Bolshie Koty
+			collection_date	2016-03
+			lat_lon	51.89055 N 105.07775 E
+Ommatogammarus_albinus_mt_genome	tRNA	complement(1251..1311)	product	tRNA-Tyr
+	tRNA	complement(1309..1364)	product	tRNA-Gln
+	tRNA	complement(1365..1420)	product	tRNA-Cys
+	tRNA	1442..1502	product	tRNA-Ile
+	tRNA	1504..1564	product	tRNA-Met
+	CDS	1565..2546	gene	ND2
+			codon_start	1
+			transl_table	5
+			transl_except	(pos:2546,aa:TERM)
+			note	stop codon completed by the addition of 3' A residues to the mRNA
+	tRNA	2547..2606	product	tRNA-Trp
+	tRNA	2607..2665	product	tRNA-Gly
+	CDS	2666..4202	gene	COX1
+			codon_start	1
+			transl_table	5
+			transl_except	(pos:4202,aa:TERM)
+			note	stop codon completed by the addition of 3' A residues to the mRNA
+	tRNA	4203..4263	product	tRNA-Leu
+	CDS	4264..4945	gene	COX2
+			codon_start	1
+			transl_table	5
+			transl_except	(pos:4945,aa:TERM)
+			note	stop codon completed by the addition of 3' A residues to the mRNA
+	tRNA	4946..5005	product	tRNA-Lys
+	tRNA	5006..5066	product	tRNA-Asp
+	CDS	5067..5222	gene	ATP8
+			codon_start	1
+			transl_table	5
+	CDS	5216..5884	gene	ATP6
+			codon_start	1
+			transl_table	5
+	CDS	5884..6669	gene	COX3
+			codon_start	1
+			transl_table	5
+	CDS	6672..7025	gene	ND3
+			codon_start	1
+			transl_table	5
+	tRNA	7024..7081	product	tRNA-Ala
+	tRNA	7082..7131	product	tRNA-Ser
+	tRNA	7134..7195	product	tRNA-Asn
+	tRNA	7193..7255	product	tRNA-Glu
+	tRNA	7250..7309	product	tRNA-Arg
+	tRNA	complement(7308..7368)	product	tRNA-Phe
+	CDS	complement(7395..9075)	gene	ND5
+			codon_start	1
+			transl_table	5
+			transl_except	(pos:7395,aa:TERM)
+			note	stop codon completed by the addition of 3' A residues to the mRNA
+	tRNA	complement(9082..9141)	product	tRNA-His
+	CDS	complement(9142..10447)	gene	ND4
+			codon_start	1
+			transl_table	5
+			transl_except	(pos:9142,aa:TERM)
+			note	stop codon completed by the addition of 3' A residues to the mRNA
+	CDS	complement(10441..10734)	gene	ND4L
+			codon_start	1
+			transl_table	5
+	tRNA	10738..10796	product	tRNA-Thr
+	tRNA	complement(10796..10857)	product	tRNA-Pro
+	CDS	10863..11360	gene	ND6
+			codon_start	1
+			transl_table	5
+	CDS	11360..12496	gene	CYTB
+			codon_start	1
+			transl_table	5
+	tRNA	12495..12554	product	tRNA-Ser2
+	CDS	complement(13011..13943)	gene	ND1
+			codon_start	1
+			transl_table	5
+	tRNA	complement(13944..14003)	product	tRNA-Leu2
+	rRNA	complement(14007..14989)	product	rrnL
+	tRNA	complement(14989..15043)	product	tRNA-Val
+	rRNA	complement(15049..15665)	product	rrnS

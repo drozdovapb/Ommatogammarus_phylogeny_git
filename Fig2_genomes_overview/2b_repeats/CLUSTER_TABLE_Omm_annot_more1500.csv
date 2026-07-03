@@ -1,0 +1,92 @@
+Number_of_reads_in_clusters	1020835					
+Number_of_clusters	147812					
+Number_of_superclusters	147776					
+Number_of_singlets	479165					
+Number_of_analyzed_reads	1500000					
+						
+Cluster	Supercluster	Size	Size_adjusted	Automatic_annotation	TAREAN_annotation	Final_annotation
+2	1	10611	10611	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+7	1	8241	8241	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+9	1	8047	8047	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+10	1	7833	7833	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+13	1	7551	7551	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+18	1	6417	6417	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+39	1	4636	4636	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+12	2	7577	7577	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+17	2	6795	6795	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+19	2	6333	6333	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+22	2	5780	5780	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+35	2	4867	4867	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+48	2	4089	4089	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+64	2	3102	3102	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+3	3	10263	10263	All/repeat	Other	Other
+8	3	8231	8231	All/repeat	Other	Other
+14	3	7536	7536	All/repeat	Putative satellites (low confidence)	Other
+26	4	5556	5556	All/repeat/mobile_element/Class_I/LINE	Putative satellites (low confidence)	/Class_I/LINE
+32	4	4953	4953	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+37	4	4688	4688	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+59	4	3329	3329	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+5	5	9053	9053	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+46	5	4118	4118	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+54	5	3740	3740	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+86	5	1308	1308	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+4	6	9062	9062	All	Other	Other
+6	6	8413	8413	All	Other	Other
+55	7	3582	3582	All/repeat/rDNA/45S_rDNA	Putative satellites (low confidence)	/45S_rDNA
+60	7	3251	3251	All/repeat/rDNA/45S_rDNA	Putative satellites (low confidence)	/45S_rDNA
+63	7	3107	3107	All/repeat/rDNA/45S_rDNA	Other	/45S_rDNA
+74	7	2110	2110	All/repeat/rDNA/45S_rDNA	Putative satellites (low confidence)	/45S_rDNA
+77	7	2057	2057	All/repeat/rDNA/45S_rDNA	Other	/45S_rDNA
+1	8	12680	12680	All	Other	Other
+15	9	7442	7442	All/repeat	Putative satellites (low confidence)	Other
+57	9	3534	3534	All/repeat	Other	Other
+30	10	5035	5035	All/repeat/mobile_element/Class_I/LINE	Putative satellites (low confidence)	/Class_I/LINE
+31	10	5022	5022	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+23	11	5618	5618	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	/Class_I/LTR/Ty3_gypsy
+45	11	4353	4353	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	/Class_I/LTR/Ty3_gypsy
+28	12	5230	5230	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+42	12	4505	4505	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+29	13	5079	5079	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	/Class_I/LTR/Ty3_gypsy
+41	13	4513	4513	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	/Class_I/LTR/Ty3_gypsy
+34	14	4872	4872	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	/Class_I/LTR/Ty3_gypsy
+38	14	4686	4686	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	/Class_I/LTR/Ty3_gypsy
+50	15	3883	3883	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	/Class_I/LTR/Ty3_gypsy
+52	15	3837	3837	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	/Class_I/LTR/Ty3_gypsy
+102	15	917	917	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	/Class_I/LTR/Ty3_gypsy
+27	16	5556	5556	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+65	16	2858	2858	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+11	17	7698	7698	All	Putative LTR elements	/Class_I/LTR
+16	18	7151	7151	All/repeat/mobile_element/Class_I/LTR/Bel-Pao	Putative LTR elements	/Class_I/LTR
+20	19	6113	6113	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+106	19	801	801	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+24	20	5612	5612	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+104	20	872	872	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+21	21	5942	5942	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+25	22	5590	5590	All	Putative LTR elements	/Class_I/LTR
+33	23	4920	4920	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+36	24	4838	4838	All/repeat/mobile_element/Class_I/DIRS	Other	/Class_I/DIRS
+40	25	4545	4545	All	Other	Other
+43	26	4398	4398	All/repeat/satellite	Putative satellites (high confidence)	/satellite
+44	27	4373	4373	All	Other	Other
+47	28	4111	4111	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+49	29	3968	3968	All	Other	Other
+51	30	3879	3879	All	Other	Other
+53	31	3784	3784	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+56	32	3564	3564	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Putative satellites (low confidence)	/Class_I/LTR/Ty3_gypsy
+58	33	3426	3426	All/repeat/satellite	Putative satellites (high confidence)	/satellite
+61	34	3220	3220	All	Other	Other
+62	35	3151	3151	All/repeat/satellite	Putative satellites (high confidence)	/satellite
+66	36	2743	2743	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+67	37	2718	2718	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+68	38	2614	2614	All/repeat/mobile_element/Class_I/LTR	Putative LTR elements	/Class_I/LTR
+69	39	2604	2604	All	Putative LTR elements	/Class_I/LTR
+70	40	2400	2400	All	Other	Other
+71	41	2283	2283	All/repeat/satellite	Putative satellites (high confidence)	/satellite
+72	42	2186	2186	All	Other	Other
+73	43	2112	2112	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+75	44	2110	2110	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+76	45	2075	2075	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+78	46	1861	1861	All	Other	Other
+79	47	1802	1802	All/repeat/satellite	Putative satellites (high confidence)	/satellite
+80	48	1633	1633	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE
+81	49	1501	1501	All/repeat/mobile_element/Class_I/LINE	Other	/Class_I/LINE

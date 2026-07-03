@@ -1,0 +1,4 @@
+Acc	Sequence_ID	Organism	isolate	Collection-date	geo_loc_name	lat_lon	fwd_primer_seq	rev_primer_seq
+PZ495223.1	Ocsp_23_4_COI	Pretiositus amethystinus	Ocsp_23_4	2023-04	Russia: Lake Baikal, Bolshie Koty	51.89532 N 105.07382 E	TAAACTATAAGCCTTCCAAGC	TGTGAAGTAAGCTCGGGTAT
+OP550562.1	Ocm_BG_2020_1_300m	Pretiositus melanophthalmus	Ocm_BG_2020_1_300m	2020	Russia: Lake Baikal, Bolshoe Goloustnoe	52.026250 N 105.439306 E	TCTCTACTAATCATAAAGATATCGG	TAAACTTCTGGATGGCCAAAGAATCA
+OP550563.1	Ocm_BG_2020_2_300m	Pretiositus melanophthalmus	Ocm_BG_2020_2_300m	2020	Russia: Lake Baikal, Bolshoe Goloustnoe	52.026250 N 105.439306 E	TCTCTACTAATCATAAAGATATCGG	TAAACTTCTGGATGGCCAAAGAATCA

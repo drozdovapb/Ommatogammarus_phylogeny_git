@@ -1,0 +1,241 @@
+IQ-TREE version 3.1.0 for Linux x86 64-bit built Mar 12 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    drozdovapb-HP-17-by1xxx (AVX2, FMA3, 11 GB RAM)
+Command: /home/drozdovapb/lib/iqtree-3.1.0-Linux/bin/iqtree3_intel -p 2_trimmed_algns/ -m TEST+MERGE -mset JC,HKY,TN93,GTR -bb 1000 -alrt 1000 -abayes -pre 5sp_rDNA
+Seed:    504355 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jun 22 13:58:25 2026
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading 5 alignment files in directory 2_trimmed_algns/
+Reading alignment file 2_trimmed_algns/18S.fasta.aln.fa.trim.fa ... Fasta format detected
+Reading fasta file: done in 0.000702452 secs using 49.54% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00885876 secs using 60.01% CPU
+Alignment has 5 sequences with 2258 columns, 19 distinct patterns
+6 parsimony-informative, 13 singleton sites, 2239 constant sites
+     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 5.9588e-05 secs using 52.02% CPU
+   1  Avi    0.00%    passed     99.81%
+   2  Evi    0.00%    passed     99.99%
+   3  Oal    0.00%    passed     99.99%
+   4  Ofl    0.00%    passed     99.97%
+   5  Ome    0.00%    passed    100.00%
+****  TOTAL    0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file 2_trimmed_algns/28S.fasta.aln.fa.trim.fa ... Fasta format detected
+Reading fasta file: done in 0.00142084 secs
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00805971 secs using 54.18% CPU
+Alignment has 5 sequences with 4664 columns, 136 distinct patterns
+49 parsimony-informative, 154 singleton sites, 4461 constant sites
+     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.1615e-05 secs
+   1  Avi    2.19%    passed     99.20%
+   2  Evi    0.84%    passed     94.13%
+   3  Oal    0.21%    passed     98.99%
+   4  Ofl    0.39%    passed     99.97%
+   5  Ome    0.26%    passed     96.92%
+****  TOTAL    0.78%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file 2_trimmed_algns/5_8S.fasta.aln.fa.trim.fa ... Fasta format detected
+Reading fasta file: done in 3.0583e-05 secs
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000167483 secs
+Alignment has 5 sequences with 126 columns, 4 distinct patterns
+0 parsimony-informative, 0 singleton sites, 126 constant sites
+     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.4314e-05 secs
+   1  Avi    0.00%    passed    100.00%
+   2  Evi    0.00%    passed    100.00%
+   3  Oal    0.00%    passed    100.00%
+   4  Ofl    0.00%    passed    100.00%
+   5  Ome    0.00%    passed    100.00%
+****  TOTAL    0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file 2_trimmed_algns/ITS1.fasta.aln.fa.trim.fa ... Fasta format detected
+Reading fasta file: done in 4.7496e-05 secs
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000386414 secs
+Alignment has 5 sequences with 287 columns, 56 distinct patterns
+8 parsimony-informative, 45 singleton sites, 234 constant sites
+     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 8.803e-06 secs
+   1  Avi    4.53%    passed     82.30%
+   2  Evi    5.92%    passed     66.94%
+   3  Oal    0.00%    passed     91.44%
+   4  Ofl    2.09%    passed     93.36%
+   5  Ome    2.09%    passed     94.98%
+****  TOTAL    2.93%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file 2_trimmed_algns/ITS2.fasta.aln.fa.trim.fa ... Fasta format detected
+Reading fasta file: done in 9.5692e-05 secs
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000979691 secs
+Alignment has 5 sequences with 761 columns, 90 distinct patterns
+42 parsimony-informative, 92 singleton sites, 627 constant sites
+     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.0001e-05 secs
+   1  Avi    1.18%    passed     97.03%
+   2  Evi    1.58%    passed     94.52%
+   3  Oal    0.26%    passed     98.91%
+   4  Ofl    0.00%    passed     97.06%
+   5  Ome    1.05%    passed     99.06%
+****  TOTAL    0.81%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		5	2258	6	2239		18S.fasta.aln.fa.trim.fa
+2		5	4664	49	4461		28S.fasta.aln.fa.trim.fa
+3		5	126	0	126		5_8S.fasta.aln.fa.trim.fa
+WARNING: No variant sites in partition 5_8S.fasta.aln.fa.trim.fa
+4		5	287	8	234		ITS1.fasta.aln.fa.trim.fa
+5		5	761	42	627		ITS2.fasta.aln.fa.trim.fa
+Degree of missing data: 0.000
+
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Initial log-likelihood: -14212.010
+Current log-likelihood at step 1: -13940.247
+Current log-likelihood at step 2: -13931.227
+Current log-likelihood at step 3: -13930.698
+Parameters optimization took 2 rounds (0.018 sec)
+
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+Initial log-likelihood: -13930.698
+Current log-likelihood at step 1: -13930.404
+Partition-specific rates:  0.123 0.817 0.007 3.642 3.892
+Parameters optimization took 0 rounds (0.003 sec)
+
+Time for fast ML tree search: 0.024 seconds
+
+NOTE: ModelFinder requires 0 MB RAM!
+
+PartitionFinder's parameters:
+Fast Relaxed Algorithm
+Percentage: 10.000
+Maximum pairs: 50
+
+Selecting individual models for 5 charsets using BIC...
+ No. Model        Score       TreeLen     Charset
+   1 GTR+F+I+G4   6638.730    0.009       18S.fasta.aln.fa.trim.fa
+   2 GTR+F+I+G4   15916.386   0.060       28S.fasta.aln.fa.trim.fa
+   3 GTR          378.365     0.000       5_8S.fasta.aln.fa.trim.fa
+   4 GTR+I+G4     1443.177    0.266       ITS1.fasta.aln.fa.trim.fa
+   5 GTR+I+G4     3795.377    0.285       ITS2.fasta.aln.fa.trim.fa
+Full partition model BIC score: 28316.752 (LnL: -13933.398  df:50)
+Merging models to increase model fit (about 9 total partition schemes)...
+   6 GTR+F+I+G4   28264.112   0.009       18S.fasta.aln.fa.trim.fa+5_8S.fasta.aln.fa.trim.fa
+   7 GTR+I+G4     28249.825   0.280       ITS1.fasta.aln.fa.trim.fa+ITS2.fasta.aln.fa.trim.fa
+2 compatible better partition pairs found
+Merging ITS1.fasta.aln.fa.trim.fa+ITS2.fasta.aln.fa.trim.fa with BIC score: 28249.825 (LnL: -13935.931  df: 42)
+Merging 18S.fasta.aln.fa.trim.fa+5_8S.fasta.aln.fa.trim.fa with BIC score: 28197.185 (LnL: -13936.608  df: 36)
+   8 GTR+F+I+G4   28202.335   0.041       18S.fasta.aln.fa.trim.fa+28S.fasta.aln.fa.trim.fa+5_8S.fasta.aln.fa.trim.fa
+   9 GTR+F+I+G4   28318.831   0.102       28S.fasta.aln.fa.trim.fa+ITS1.fasta.aln.fa.trim.fa+ITS2.fasta.aln.fa.trim.fa
+Agglomerative model selection: ((18S.fasta.aln.fa.trim.fa,5_8S.fasta.aln.fa.trim.fa)2:28197.2,28S.fasta.aln.fa.trim.fa,(ITS1.fasta.aln.fa.trim.fa,ITS2.fasta.aln.fa.trim.fa)1:28249.8)
+Merging into 3 partitions...
+  10 JC           6952.360    0.008       18S.fasta.aln.fa.trim.fa+5_8S.fasta.aln.fa.trim.fa	0h:0m:0s (0h:0m:-1s left)
+  11 HKY+F+I      15889.596   0.063       28S.fasta.aln.fa.trim.fa	0h:0m:0s (0h:0m:-1s left)
+  12 HKY+G4       5176.215    0.276       ITS1.fasta.aln.fa.trim.fa+ITS2.fasta.aln.fa.trim.fa	0h:0m:0s (0h:0m:-1s left)
+Best partition model BIC score: 28082.831 (LnL: -13969.422  df:16)
+Partition information was printed to 5sp_rDNA.best_scheme.nex
+Partition information in Raxml format was printed to 5sp_rDNA.best_scheme
+
+All model information printed to 5sp_rDNA.model.gz
+CPU time for ModelFinder: 0.110 seconds (0h:0m:0s)
+Wall-clock time for ModelFinder: 0.128 seconds (0h:0m:0s)
+Generating 1000 samples for ultrafast bootstrap (seed: 504355)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -13968.299
+Current log-likelihood at step 1: -13968.281
+Partition-specific rates:  0.113 0.842 3.719
+Parameters optimization took 0 rounds (0.001 sec)
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.1573e-05 secs using 77.77% CPU
+Computing ML distances took 0.000025 sec (of wall-clock time) 0.000022 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 1.6052e-05 secs using 74.76% CPU
+Constructing RapidNJ tree: done in 1.7762e-05 secs using 78.82% CPU
+Computing RapidNJ tree took 0.000055 sec (of wall-clock time) 0.000045 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -13968.280
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.026 second
+Computing log-likelihood of 4 initial trees ... 0.001 seconds
+Current best score: -13968.280
+
+Do NNI search on 5 best initial trees
+Finish initializing candidate tree set (5)
+Current best tree score: -13968.280 / CPU time: 0.044
+Number of iterations: 5
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -13968.280
+Iteration 10 / LogL: -13968.300 / Time: 0h:0m:0s
+Iteration 20 / LogL: -13968.308 / Time: 0h:0m:0s
+Iteration 30 / LogL: -13968.282 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 40 / LogL: -13968.280 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 50 / LogL: -13968.282 / Time: 0h:0m:0s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -13974.263
+Iteration 60 / LogL: -13968.280 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 70 / LogL: -13968.295 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 80 / LogL: -13968.300 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 90 / LogL: -13968.305 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 100 / LogL: -13969.704 / Time: 0h:0m:0s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -13974.285
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -13968.280
+Current log-likelihood at step 1: -13968.279
+Partition-specific rates:  0.113 0.842 3.722
+Parameters optimization took 0 rounds (0.001 sec)
+
+Partition information was printed to 5sp_rDNA.best_model.nex
+BEST SCORE FOUND : -13968.279
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Testing tree branches by aBayes parametric test...
+0.028 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file 5sp_rDNA.splits.nex
+Total tree length: 0.074
+
+Total number of iterations: 101
+CPU time used for tree search: 0.560 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.571 sec (0h:0m:0s)
+Total CPU time used: 0.725 sec (0h:0m:0s)
+Total wall-clock time used: 0.756 sec (0h:0m:0s)
+
+Computing bootstrap consensus tree...
+Reading input file 5sp_rDNA.splits.nex...
+5 taxa and 9 splits.
+Consensus tree written to 5sp_rDNA.contree
+Reading input trees file 5sp_rDNA.contree
+Log-likelihood of consensus tree: -13968.279
+
+Analysis results written to: 
+  IQ-TREE report:                5sp_rDNA.iqtree
+  Maximum-likelihood tree:       5sp_rDNA.treefile
+  Likelihood distances:          5sp_rDNA.mldist
+  Best partitioning scheme:      5sp_rDNA.best_scheme.nex
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          5sp_rDNA.splits.nex
+  Consensus tree:                5sp_rDNA.contree
+  Screen log file:               5sp_rDNA.log
+
+Date and Time: Mon Jun 22 13:58:26 2026

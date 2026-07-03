@@ -1,0 +1,566 @@
+IQ-TREE version 3.1.0 for Linux x86 64-bit built Mar 12 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    drozdovapb-HP-17-by1xxx (AVX2, FMA3, 11 GB RAM)
+Command: /home/drozdovapb/lib/iqtree-3.1.0-Linux/bin/iqtree3_intel -s al_fl_am_me_BK_trim753_woutgroups.fa -alrt 1000 -abayes -bb 1000
+Seed:    274890 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jul  2 11:38:22 2026
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file al_fl_am_me_BK_trim753_woutgroups.fa ... Fasta format detected
+Reading fasta file: done in 0.00319173 secs using 55.89% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00385819 secs using 99.84% CPU
+Alignment has 94 sequences with 481 columns, 163 distinct patterns
+146 parsimony-informative, 48 singleton sites, 287 constant sites
+                                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00031723 secs using 98.04% CPU
+   1  Gla_MK354235                                                0.00%    passed     69.13%
+   2  Avi_KX341962                                                0.00%    failed      2.00%
+   3  Ecy_KX341964                                                0.00%    failed      1.92%
+   4  EveE_20181                                                  0.00%    passed     46.59%
+   5  PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_     0.00%    passed     51.53%
+   6  PV474291_Ommatogammarus_albinus_isolate_BK_15_Oa_650m_      0.00%    passed     51.53%
+   7  PV474292_Ommatogammarus_albinus_isolate_BK_16_Oa_250m_      0.00%    passed     51.53%
+   8  PV474293_Ommatogammarus_albinus_isolate_BK_22_Oa_1000m_     0.00%    passed     57.09%
+   9  PV474294_Ommatogammarus_albinus_isolate_BK_23_Oa_650m_      0.00%    passed     51.53%
+  10  PV474295_Ommatogammarus_albinus_isolate_BK_24_Oa_250m_      0.00%    passed     51.53%
+  11  PV474296_Ommatogammarus_albinus_isolate_BK_30_Oa_1000m_     0.00%    passed     51.53%
+  12  PV474297_Ommatogammarus_albinus_isolate_BK_32_Oa_250m_      0.00%    passed     51.53%
+  13  PV474298_Ommatogammarus_albinus_isolate_BK_36_Oa_1000m_     0.00%    passed     51.53%
+  14  PV474299_Ommatogammarus_albinus_isolate_BK_37_Oa_100m_      0.00%    passed     51.53%
+  15  PV474300_Ommatogammarus_albinus_isolate_BK_38_Oa_100m_      0.00%    passed     51.53%
+  16  PV474301_Ommatogammarus_albinus_isolate_BK_39_Oa_100m_      0.00%    passed     51.53%
+  17  PV474302_Ommatogammarus_albinus_isolate_BK_40_Oa_100m_      0.00%    passed     51.53%
+  18  PV474303_Ommatogammarus_albinus_isolate_BK_45_Oa_1000m_     0.00%    passed     51.53%
+  19  PV474304_Ommatogammarus_albinus_isolate_BK_46_Oa_650m_      0.00%    passed     51.53%
+  20  PV474305_Ommatogammarus_albinus_isolate_BK_47_Oa_250m_      0.00%    passed     51.53%
+  21  PV474306_Ommatogammarus_albinus_isolate_BK_48_Oa_100m_      0.00%    passed     51.53%
+  22  PV474307_Ommatogammarus_albinus_isolate_BK_6_Oa_1000m_      0.00%    passed     51.53%
+  23  PV474308_Ommatogammarus_albinus_isolate_BK_7_Oa_650m_       0.00%    passed     51.53%
+  24  PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_       0.00%    passed     99.30%
+  25  PV474348_Ommatogammarus_flavus_isolate_BK_11_Of_250m_       0.00%    passed     99.30%
+  26  PV474349_Ommatogammarus_flavus_isolate_BK_12_Of_100m_       0.00%    passed     99.30%
+  27  PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_        0.00%    passed     99.76%
+  28  PV474351_Ommatogammarus_flavus_isolate_BK_17_Of_1000m_      0.00%    passed     99.76%
+  29  PV474352_Ommatogammarus_flavus_isolate_BK_18_Of_650m_       0.00%    passed     99.55%
+  30  PV474353_Ommatogammarus_flavus_isolate_BK_19_Of_250m_       0.00%    passed     99.30%
+  31  PV474354_Ommatogammarus_flavus_isolate_BK_1_Of_1000m_       0.00%    passed     99.76%
+  32  PV474355_Ommatogammarus_flavus_isolate_BK_20_Of_100m_       0.00%    passed     99.30%
+  33  PV474356_Ommatogammarus_flavus_isolate_BK_21_Of_25m_        0.00%    passed     99.30%
+  34  PV474357_Ommatogammarus_flavus_isolate_BK_25_Of_1000m_      0.00%    passed     99.30%
+  35  PV474358_Ommatogammarus_flavus_isolate_BK_26_Of_650m_       0.00%    passed     99.76%
+  36  PV474359_Ommatogammarus_flavus_isolate_BK_27_Of_250m_       0.00%    passed     99.76%
+  37  PV474360_Ommatogammarus_flavus_isolate_BK_28_Of_100m_       0.00%    passed     99.30%
+  38  PV474361_Ommatogammarus_flavus_isolate_BK_29_Of_25m_        0.00%    passed     99.30%
+  39  PV474362_Ommatogammarus_flavus_isolate_BK_2_Of_650m_        0.00%    passed     99.55%
+  40  PV474363_Ommatogammarus_flavus_isolate_BK_31_Of_650m_       0.42%    passed     99.22%
+  41  PV474364_Ommatogammarus_flavus_isolate_BK_33_Of_1000m_      0.00%    passed     99.30%
+  42  PV474365_Ommatogammarus_flavus_isolate_BK_34_Of_1000m_      0.00%    passed     99.76%
+  43  PV474366_Ommatogammarus_flavus_isolate_BK_35_Of_25m_        0.00%    passed     99.76%
+  44  PV474367_Ommatogammarus_flavus_isolate_BK_3_Of_250m_        0.00%    passed     99.30%
+  45  PV474368_Ommatogammarus_flavus_isolate_BK_41_Of_1000m_      0.00%    passed     99.30%
+  46  PV474369_Ommatogammarus_flavus_isolate_BK_42_31_Of_650m_    0.00%    passed     99.55%
+  47  PV474370_Ommatogammarus_flavus_isolate_BK_43_Of_250m_       0.00%    passed     99.30%
+  48  PV474371_Ommatogammarus_flavus_isolate_BK_44_Of_100m_       0.00%    passed     99.76%
+  49  PV474372_Ommatogammarus_flavus_isolate_BK_4_Of_100m_        0.00%    passed     99.30%
+  50  PZ495199_Pretiositus_amethystinus_isolate_Ocsp_21_1_        0.00%    passed     93.27%
+  51  PZ495200_Pretiositus_amethystinus_isolate_Ocsp_21_2_        0.00%    passed     96.86%
+  52  PZ495201_Pretiositus_amethystinus_isolate_Ocsp_21_3_        0.00%    passed     93.98%
+  53  PZ495202_Pretiositus_amethystinus_isolate_Ocsp_21_4_        0.00%    passed     93.27%
+  54  PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_        0.00%    passed     89.96%
+  55  PZ495204_Pretiositus_amethystinus_isolate_Ocsp_21_6_        0.00%    passed     96.25%
+  56  PZ495205_Pretiositus_amethystinus_isolate_Ocsp_21_7_        0.00%    passed     89.96%
+  57  PZ495206_Pretiositus_amethystinus_isolate_Ocsp_21_8_        0.00%    passed     94.06%
+  58  PZ495207_Pretiositus_amethystinus_isolate_Ocsp_21_9_        0.00%    passed     93.27%
+  59  PZ495208_Pretiositus_amethystinus_isolate_Ocsp_21_10_       0.00%    passed     95.68%
+  60  PZ495209_Pretiositus_amethystinus_isolate_Ocsp_21_11_       0.00%    passed     89.96%
+  61  PZ495210_Pretiositus_amethystinus_isolate_Ocsp_21_12_       0.00%    passed     83.74%
+  62  PZ495211_Pretiositus_amethystinus_isolate_Ocsp_21_13_       0.00%    passed     89.96%
+  63  PZ495212_Pretiositus_amethystinus_isolate_Ocsp_21_14_       0.00%    passed     89.96%
+  64  PZ495213_Pretiositus_amethystinus_isolate_Ocsp_21_15_       0.00%    passed     89.96%
+  65  PZ495214_Pretiositus_amethystinus_isolate_Ocsp_21_16_       0.00%    passed     96.25%
+  66  PZ495215_Pretiositus_amethystinus_isolate_Ocsp_21_17_       0.00%    passed     87.59%
+  67  PZ495216_Pretiositus_amethystinus_isolate_Ocsp_21_18_       0.00%    passed     89.96%
+  68  PZ495217_Pretiositus_amethystinus_isolate_Ocsp_21_19_       0.00%    passed     93.98%
+  69  PZ495218_Pretiositus_melanophthalmus_isolate_Ome_21_35_     0.00%    passed     49.97%
+  70  PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_     0.00%    passed     43.06%
+  71  PZ495220_Pretiositus_amethystinus_isolate_Ocsp_23_1_        0.00%    passed     89.09%
+  72  PZ495221_Pretiositus_amethystinus_isolate_Ocsp_23_2_        0.00%    passed     89.96%
+  73  PZ495222_Pretiositus_melanophthalmus_isolate_Ome_23_3_      0.00%    passed     43.06%
+  74  PZ495223_Pretiositus_amethystinus_isolate_Ocsp_23_4_        0.00%    passed     89.96%
+  75  PZ495224_Pretiositus_amethystinus_isolate_Ocsp_23_5_        0.00%    passed     89.96%
+  76  PZ495225_Pretiositus_amethystinus_isolate_Ocsp_23_6_        0.00%    passed     96.86%
+  77  PZ495226_Pretiositus_amethystinus_isolate_Ocsp_23_7_        0.00%    passed     95.70%
+  78  PZ495227_Pretiositus_amethystinus_isolate_Ocsp_23_9_        0.00%    passed     93.27%
+  79  PZ495228_Pretiositus_melanophthalmus_isolate_Ome_23_10_     0.00%    passed     43.06%
+  80  PZ495229_Pretiositus_melanophthalmus_isolate_Ome_23_11_     0.00%    passed     36.51%
+  81  PZ495230_Pretiositus_amethystinus_isolate_Ocsp_23_12_       0.00%    passed     94.06%
+  82  PZ495231_Pretiositus_amethystinus_isolate_Ocsp_23_13_       0.00%    passed     93.98%
+  83  PZ495232_Pretiositus_amethystinus_isolate_Ocsp_23_14_       0.00%    passed     89.73%
+  84  PZ495233_Pretiositus_melanophthalmus_isolate_Ome_25_1_      0.00%    passed     43.06%
+  85  PZ495234_Pretiositus_melanophthalmus_isolate_Ome_25_2_      0.00%    passed     43.06%
+  86  PZ495235_Pretiositus_melanophthalmus_isolate_Ome_25_3_      0.00%    passed     43.06%
+  87  PZ495236_Pretiositus_melanophthalmus_isolate_Ome_25_4_      0.00%    passed     43.26%
+  88  PZ495237_Pretiositus_melanophthalmus_isolate_Ome_25_5_      0.00%    passed     43.26%
+  89  PZ495238_Pretiositus_melanophthalmus_isolate_Ome_25_7_      0.00%    passed     43.06%
+  90  PZ495239_Pretiositus_melanophthalmus_isolate_Ome_25_8_      0.00%    passed     43.26%
+  91  PZ495240_Pretiositus_melanophthalmus_isolate_Ome_25_9_      0.00%    passed     43.06%
+  92  PZ495241_Pretiositus_melanophthalmus_isolate_Ome_25_11_     0.00%    passed     43.06%
+  93  PZ495242_Pretiositus_melanophthalmus_isolate_Ome_25_13_     0.00%    passed     43.06%
+  94  PZ495243_Pretiositus_melanophthalmus_isolate_Ohy_25_        0.00%    passed     40.78%
+****  TOTAL                                                       0.00%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: PV474291_Ommatogammarus_albinus_isolate_BK_15_Oa_650m_ is identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_ but kept for subsequent analysis
+NOTE: PV474348_Ommatogammarus_flavus_isolate_BK_11_Of_250m_ is identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_ but kept for subsequent analysis
+NOTE: PV474351_Ommatogammarus_flavus_isolate_BK_17_Of_1000m_ is identical to PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_ but kept for subsequent analysis
+NOTE: PZ495207_Pretiositus_amethystinus_isolate_Ocsp_21_9_ is identical to PZ495202_Pretiositus_amethystinus_isolate_Ocsp_21_4_ but kept for subsequent analysis
+NOTE: PZ495205_Pretiositus_amethystinus_isolate_Ocsp_21_7_ is identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_ but kept for subsequent analysis
+NOTE: PZ495214_Pretiositus_amethystinus_isolate_Ocsp_21_16_ is identical to PZ495204_Pretiositus_amethystinus_isolate_Ocsp_21_6_ but kept for subsequent analysis
+NOTE: PZ495231_Pretiositus_amethystinus_isolate_Ocsp_23_13_ is identical to PZ495217_Pretiositus_amethystinus_isolate_Ocsp_21_19_ but kept for subsequent analysis
+NOTE: PZ495222_Pretiositus_melanophthalmus_isolate_Ome_23_3_ is identical to PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_ but kept for subsequent analysis
+NOTE: PZ495237_Pretiositus_melanophthalmus_isolate_Ome_25_5_ is identical to PZ495236_Pretiositus_melanophthalmus_isolate_Ome_25_4_ but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000916776 secs using 99.26% CPU
+Identifying sites to remove: done in 0.000677419 secs using 99.5% CPU
+NOTE: 49 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: PV474292_Ommatogammarus_albinus_isolate_BK_16_Oa_250m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474294_Ommatogammarus_albinus_isolate_BK_23_Oa_650m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474295_Ommatogammarus_albinus_isolate_BK_24_Oa_250m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474296_Ommatogammarus_albinus_isolate_BK_30_Oa_1000m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474297_Ommatogammarus_albinus_isolate_BK_32_Oa_250m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474298_Ommatogammarus_albinus_isolate_BK_36_Oa_1000m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474299_Ommatogammarus_albinus_isolate_BK_37_Oa_100m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474300_Ommatogammarus_albinus_isolate_BK_38_Oa_100m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474301_Ommatogammarus_albinus_isolate_BK_39_Oa_100m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474302_Ommatogammarus_albinus_isolate_BK_40_Oa_100m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474303_Ommatogammarus_albinus_isolate_BK_45_Oa_1000m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474304_Ommatogammarus_albinus_isolate_BK_46_Oa_650m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474305_Ommatogammarus_albinus_isolate_BK_47_Oa_250m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474306_Ommatogammarus_albinus_isolate_BK_48_Oa_100m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474307_Ommatogammarus_albinus_isolate_BK_6_Oa_1000m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474308_Ommatogammarus_albinus_isolate_BK_7_Oa_650m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474349_Ommatogammarus_flavus_isolate_BK_12_Of_100m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474353_Ommatogammarus_flavus_isolate_BK_19_Of_250m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474355_Ommatogammarus_flavus_isolate_BK_20_Of_100m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474356_Ommatogammarus_flavus_isolate_BK_21_Of_25m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474357_Ommatogammarus_flavus_isolate_BK_25_Of_1000m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474360_Ommatogammarus_flavus_isolate_BK_28_Of_100m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474361_Ommatogammarus_flavus_isolate_BK_29_Of_25m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474364_Ommatogammarus_flavus_isolate_BK_33_Of_1000m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474367_Ommatogammarus_flavus_isolate_BK_3_Of_250m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474368_Ommatogammarus_flavus_isolate_BK_41_Of_1000m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474370_Ommatogammarus_flavus_isolate_BK_43_Of_250m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474372_Ommatogammarus_flavus_isolate_BK_4_Of_100m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474354_Ommatogammarus_flavus_isolate_BK_1_Of_1000m_ (identical to PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_) is ignored but added at the end
+NOTE: PV474358_Ommatogammarus_flavus_isolate_BK_26_Of_650m_ (identical to PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_) is ignored but added at the end
+NOTE: PV474359_Ommatogammarus_flavus_isolate_BK_27_Of_250m_ (identical to PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_) is ignored but added at the end
+NOTE: PV474365_Ommatogammarus_flavus_isolate_BK_34_Of_1000m_ (identical to PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_) is ignored but added at the end
+NOTE: PV474366_Ommatogammarus_flavus_isolate_BK_35_Of_25m_ (identical to PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_) is ignored but added at the end
+NOTE: PV474371_Ommatogammarus_flavus_isolate_BK_44_Of_100m_ (identical to PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_) is ignored but added at the end
+NOTE: PZ495209_Pretiositus_amethystinus_isolate_Ocsp_21_11_ (identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_) is ignored but added at the end
+NOTE: PZ495211_Pretiositus_amethystinus_isolate_Ocsp_21_13_ (identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_) is ignored but added at the end
+NOTE: PZ495212_Pretiositus_amethystinus_isolate_Ocsp_21_14_ (identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_) is ignored but added at the end
+NOTE: PZ495213_Pretiositus_amethystinus_isolate_Ocsp_21_15_ (identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_) is ignored but added at the end
+NOTE: PZ495216_Pretiositus_amethystinus_isolate_Ocsp_21_18_ (identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_) is ignored but added at the end
+NOTE: PZ495221_Pretiositus_amethystinus_isolate_Ocsp_23_2_ (identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_) is ignored but added at the end
+NOTE: PZ495223_Pretiositus_amethystinus_isolate_Ocsp_23_4_ (identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_) is ignored but added at the end
+NOTE: PZ495224_Pretiositus_amethystinus_isolate_Ocsp_23_5_ (identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_) is ignored but added at the end
+NOTE: PZ495228_Pretiositus_melanophthalmus_isolate_Ome_23_10_ (identical to PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_) is ignored but added at the end
+NOTE: PZ495233_Pretiositus_melanophthalmus_isolate_Ome_25_1_ (identical to PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_) is ignored but added at the end
+NOTE: PZ495234_Pretiositus_melanophthalmus_isolate_Ome_25_2_ (identical to PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_) is ignored but added at the end
+NOTE: PZ495235_Pretiositus_melanophthalmus_isolate_Ome_25_3_ (identical to PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_) is ignored but added at the end
+NOTE: PZ495238_Pretiositus_melanophthalmus_isolate_Ome_25_7_ (identical to PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_) is ignored but added at the end
+NOTE: PZ495241_Pretiositus_melanophthalmus_isolate_Ome_25_11_ (identical to PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_) is ignored but added at the end
+NOTE: PZ495242_Pretiositus_melanophthalmus_isolate_Ome_25_13_ (identical to PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_) is ignored but added at the end
+Alignment was printed to al_fl_am_me_BK_trim753_woutgroups.fa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to al_fl_am_me_BK_trim753_woutgroups.fa.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -2463.054
+Optimal log-likelihood: -2462.423
+Rate parameters:  A-C: 1.86441  A-G: 12.52947  A-T: 0.67695  C-G: 0.71892  C-T: 11.49743  G-T: 1.00000
+Base frequencies:  A: 0.234  C: 0.231  G: 0.199  T: 0.336
+Proportion of invariable sites: 0.280
+Gamma shape alpha: 0.382
+Parameters optimization took 1 rounds (0.018 sec)
+Time for fast ML tree search: 0.196 seconds
+
+NOTE: ModelFinder requires 3 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 481 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            2809.996     87  5793.991     5832.953     6157.292
+  2  JC+I          2659.547     88  5495.094     5535.053     5862.571
+  3  JC+G4         2657.093     88  5490.186     5530.146     5857.663
+  4  JC+I+G4       2657.836     89  5493.673     5534.644     5865.325
+  5  JC+R2         2655.458     89  5488.915     5529.887     5860.567
+  6  JC+R3         2655.439     91  5492.877     5535.921     5872.881
+ 14  JC+I+R2       2655.409     90  5490.819     5532.819     5866.647
+ 15  JC+I+R3       2655.258     92  5494.516     5538.619     5878.695
+ 24  JC+I          2659.547     88  5495.094     5535.053     5862.571
+ 25  JC+G4         2657.093     88  5490.186     5530.146     5857.663
+ 26  JC+I+G4       2657.836     89  5493.673     5534.644     5865.325
+ 27  JC+R2         2655.458     89  5488.915     5529.887     5860.567
+ 36  JC+I+R2       2655.409     90  5490.819     5532.819     5866.647
+ 46  F81+I         2659.545     88  5495.090     5535.050     5862.567
+ 47  F81+G4        2657.093     88  5490.186     5530.145     5857.663
+ 48  F81+I+G4      2657.836     89  5493.672     5534.644     5865.324
+ 49  F81+R2        2655.404     89  5488.809     5529.781     5860.461
+ 58  F81+I+R2      2655.375     90  5490.750     5532.750     5866.578
+ 68  F81+F+I       2638.441     91  5458.882     5501.926     5838.886
+ 69  F81+F+G4      2637.729     91  5457.459     5500.502     5837.462
+ 70  F81+F+I+G4    2638.481     92  5460.961     5505.065     5845.141
+ 71  F81+F+R2      2635.475     92  5454.949     5499.052     5839.129
+ 80  F81+F+I+R2    2635.382     93  5456.764     5501.943     5845.120
+ 90  K2P+I         2494.970     89  5167.940     5208.912     5539.592
+ 91  K2P+G4        2481.679     89  5141.357     5182.329     5513.009
+ 92  K2P+I+G4      2478.964     90  5137.927     5179.927     5513.755
+ 93  K2P+R2        2483.902     90  5147.805     5189.805     5523.633
+102  K2P+I+R2      2478.615     91  5139.230     5182.273     5519.233
+112  K2P+I         2494.970     89  5167.940     5208.912     5539.592
+113  K2P+G4        2481.679     89  5141.357     5182.329     5513.009
+114  K2P+I+G4      2478.964     90  5137.927     5179.927     5513.755
+115  K2P+R2        2483.902     90  5147.805     5189.805     5523.633
+124  K2P+I+R2      2478.615     91  5139.230     5182.273     5519.233
+134  HKY+I         2494.967     89  5167.933     5208.905     5539.585
+135  HKY+G4        2481.646     89  5141.293     5182.265     5512.945
+136  HKY+I+G4      2478.914     90  5137.828     5179.828     5513.656
+137  HKY+R2        2483.886     90  5147.772     5189.772     5523.600
+146  HKY+I+R2      2478.569     91  5139.138     5182.182     5519.142
+156  HKY+F+I       2477.154     92  5138.308     5182.411     5522.488
+157  HKY+F+G4      2466.134     92  5116.268     5160.371     5500.447
+158  HKY+F+I+G4    2463.700     93  5113.401     5158.579     5501.757
+159  HKY+F+R2      2469.043     93  5124.087     5169.265     5512.442
+168  HKY+F+I+R2    2462.888     94  5113.777     5160.046     5506.308
+178  TNe+I         2494.704     90  5169.407     5211.407     5545.235
+179  TNe+G4        2481.192     90  5142.385     5184.385     5518.213
+180  TNe+I+G4      2478.230     91  5138.461     5181.504     5518.464
+181  TNe+R2        2483.561     91  5149.123     5192.167     5529.127
+190  TNe+I+R2      2477.702     92  5139.404     5183.507     5523.583
+200  TNe+I         2494.704     90  5169.407     5211.407     5545.235
+201  TNe+G4        2481.192     90  5142.385     5184.385     5518.213
+202  TNe+I+G4      2478.230     91  5138.461     5181.504     5518.464
+203  TNe+R2        2483.561     91  5149.123     5192.167     5529.127
+212  TNe+I+R2      2477.702     92  5139.404     5183.507     5523.583
+222  TN+I          2494.702     90  5169.405     5211.405     5545.233
+223  TN+G4         2481.174     90  5142.349     5184.349     5518.177
+224  TN+I+G4       2478.198     91  5138.396     5181.439     5518.400
+225  TN+R2         2483.549     91  5149.099     5192.142     5529.103
+234  TN+I+R2       2477.639     92  5139.278     5183.381     5523.458
+244  TN+F+I        2476.677     93  5139.354     5184.532     5527.710
+245  TN+F+G4       2465.940     93  5117.881     5163.059     5506.236
+246  TN+F+I+G4     2463.573     94  5115.146     5161.416     5507.678
+247  TN+F+R2       2468.694     94  5125.387     5171.657     5517.919
+256  TN+F+I+R2     2462.774     95  5115.549     5162.925     5512.256
+266  K3P+I         2494.964     90  5169.928     5211.928     5545.756
+267  K3P+G4        2481.335     90  5142.670     5184.670     5518.498
+268  K3P+I+G4      2478.549     91  5139.098     5182.141     5519.102
+269  K3P+R2        2483.706     91  5149.411     5192.455     5529.415
+278  K3P+I+R2      2478.271     92  5140.543     5184.646     5524.723
+288  K3P+I         2494.964     90  5169.928     5211.928     5545.756
+289  K3P+G4        2481.335     90  5142.670     5184.670     5518.498
+290  K3P+I+G4      2478.549     91  5139.098     5182.141     5519.102
+291  K3P+R2        2483.706     91  5149.411     5192.455     5529.415
+300  K3P+I+R2      2478.271     92  5140.543     5184.646     5524.723
+310  K3Pu+I        2494.965     90  5169.929     5211.929     5545.757
+311  K3Pu+G4       2481.377     90  5142.754     5184.754     5518.582
+312  K3Pu+I+G4     2478.558     91  5139.116     5182.160     5519.120
+313  K3Pu+R2       2483.755     91  5149.510     5192.554     5529.514
+322  K3Pu+I+R2     2478.287     92  5140.575     5184.678     5524.755
+332  K3Pu+F+I      2477.077     93  5140.154     5185.332     5528.510
+333  K3Pu+F+G4     2465.479     93  5116.959     5162.137     5505.314
+334  K3Pu+F+I+G4   2462.827     94  5113.653     5159.923     5506.185
+335  K3Pu+F+R2     2468.825     94  5125.649     5171.919     5518.181
+344  K3Pu+F+I+R2   2462.123     95  5114.247     5161.623     5510.954
+354  TPM2+I        2493.541     90  5167.082     5209.082     5542.910
+355  TPM2+G4       2480.199     90  5140.397     5182.397     5516.225
+356  TPM2+I+G4     2477.600     91  5137.200     5180.243     5517.203
+357  TPM2+R2       2482.132     91  5146.264     5189.308     5526.268
+366  TPM2+I+R2     2477.312     92  5138.625     5182.728     5522.805
+376  TPM2+I        2493.541     90  5167.082     5209.082     5542.910
+377  TPM2+G4       2480.199     90  5140.397     5182.397     5516.225
+378  TPM2+I+G4     2477.600     91  5137.200     5180.243     5517.203
+379  TPM2+R2       2482.132     91  5146.264     5189.308     5526.268
+388  TPM2+I+R2     2477.312     92  5138.625     5182.728     5522.805
+398  TPM2u+I       2493.545     90  5167.089     5209.089     5542.917
+399  TPM2u+G4      2480.224     90  5140.447     5182.447     5516.275
+400  TPM2u+I+G4    2477.603     91  5137.205     5180.249     5517.209
+401  TPM2u+R2      2482.172     91  5146.345     5189.389     5526.349
+410  TPM2u+I+R2    2477.335     92  5138.669     5182.772     5522.849
+420  TPM2u+F+I     2476.789     93  5139.577     5184.756     5527.933
+421  TPM2u+F+G4    2465.884     93  5117.767     5162.946     5506.123
+422  TPM2u+F+I+G4  2463.332     94  5114.664     5160.934     5507.196
+423  TPM2u+F+R2    2468.606     94  5125.212     5171.481     5517.743
+432  TPM2u+F+I+R2  2462.637     95  5115.274     5162.650     5511.981
+442  TPM3+I        2494.865     90  5169.730     5211.730     5545.558
+443  TPM3+G4       2481.633     90  5143.266     5185.266     5519.094
+444  TPM3+I+G4     2478.884     91  5139.767     5182.811     5519.771
+445  TPM3+R2       2483.854     91  5149.708     5192.751     5529.711
+454  TPM3+I+R2     2478.539     92  5141.079     5185.182     5525.259
+464  TPM3+I        2494.865     90  5169.730     5211.730     5545.558
+465  TPM3+G4       2481.633     90  5143.266     5185.266     5519.094
+466  TPM3+I+G4     2478.884     91  5139.767     5182.811     5519.771
+467  TPM3+R2       2483.854     91  5149.708     5192.751     5529.711
+476  TPM3+I+R2     2478.539     92  5141.079     5185.182     5525.259
+486  TPM3u+I       2494.869     90  5169.738     5211.738     5545.566
+487  TPM3u+G4      2481.664     90  5143.328     5185.328     5519.156
+488  TPM3u+I+G4    2478.885     91  5139.770     5182.813     5519.774
+489  TPM3u+R2      2483.896     91  5149.792     5192.836     5529.796
+498  TPM3u+I+R2    2478.549     92  5141.097     5185.201     5525.277
+508  TPM3u+F+I     2476.358     93  5138.715     5183.894     5527.071
+509  TPM3u+F+G4    2465.385     93  5116.770     5161.948     5505.126
+510  TPM3u+F+I+G4  2462.886     94  5113.772     5160.042     5506.304
+511  TPM3u+F+R2    2468.416     94  5124.831     5171.100     5517.363
+520  TPM3u+F+I+R2  2462.200     95  5114.400     5161.776     5511.107
+530  TIMe+I        2494.704     91  5171.408     5214.452     5551.412
+531  TIMe+G4       2480.927     91  5143.853     5186.897     5523.857
+532  TIMe+I+G4     2477.785     92  5139.569     5183.672     5523.749
+533  TIMe+R2       2483.441     92  5150.883     5194.986     5535.063
+542  TIMe+I+R2     2477.392     93  5140.784     5185.962     5529.139
+552  TIMe+I        2494.704     91  5171.408     5214.452     5551.412
+553  TIMe+G4       2480.927     91  5143.853     5186.897     5523.857
+554  TIMe+I+G4     2477.785     92  5139.569     5183.672     5523.749
+555  TIMe+R2       2483.441     92  5150.883     5194.986     5535.063
+564  TIMe+I+R2     2477.392     93  5140.784     5185.962     5529.139
+574  TIM+I         2494.706     91  5171.412     5214.455     5551.416
+575  TIM+G4        2480.897     91  5143.794     5186.838     5523.798
+576  TIM+I+G4      2477.756     92  5139.511     5183.614     5523.691
+577  TIM+R2        2483.427     92  5150.854     5194.957     5535.034
+586  TIM+I+R2      2477.347     93  5140.693     5185.872     5529.049
+596  TIM+F+I       2476.589     94  5141.179     5187.448     5533.710
+597  TIM+F+G4      2465.267     94  5118.534     5164.804     5511.066
+598  TIM+F+I+G4    2462.730     95  5115.460     5162.837     5512.168
+599  TIM+F+R2      2468.317     95  5126.634     5174.010     5523.341
+608  TIM+F+I+R2    2462.049     96  5116.097     5164.597     5516.981
+618  TIM2e+I       2493.205     91  5168.409     5211.453     5548.413
+619  TIM2e+G4      2479.708     91  5141.416     5184.459     5521.420
+620  TIM2e+I+G4    2476.792     92  5137.585     5181.688     5521.765
+621  TIM2e+R2      2481.782     92  5147.564     5191.667     5531.744
+630  TIM2e+I+R2    2476.439     93  5138.878     5184.057     5527.234
+640  TIM2e+I       2493.205     91  5168.409     5211.453     5548.413
+641  TIM2e+G4      2479.708     91  5141.416     5184.459     5521.420
+642  TIM2e+I+G4    2476.792     92  5137.585     5181.688     5521.765
+643  TIM2e+R2      2481.782     92  5147.564     5191.667     5531.744
+652  TIM2e+I+R2    2476.439     93  5138.878     5184.057     5527.234
+662  TIM2+I        2493.202     91  5168.404     5211.448     5548.408
+663  TIM2+G4       2479.702     91  5141.404     5184.447     5521.408
+664  TIM2+I+G4     2476.773     92  5137.546     5181.649     5521.726
+665  TIM2+R2       2481.774     92  5147.549     5191.652     5531.729
+674  TIM2+I+R2     2476.374     93  5138.749     5183.927     5527.105
+684  TIM2+F+I      2476.359     94  5140.719     5186.988     5533.250
+685  TIM2+F+G4     2465.705     94  5119.409     5165.678     5511.941
+686  TIM2+F+I+G4   2463.238     95  5116.476     5163.853     5513.184
+687  TIM2+F+R2     2468.278     95  5126.556     5173.932     5523.263
+696  TIM2+F+I+R2   2462.570     96  5117.140     5165.640     5518.023
+706  TIM3e+I       2494.586     91  5171.173     5214.217     5551.177
+707  TIM3e+G4      2481.194     91  5144.388     5187.432     5524.392
+708  TIM3e+I+G4    2478.080     92  5140.160     5184.263     5524.340
+709  TIM3e+R2      2483.546     92  5151.092     5195.195     5535.272
+718  TIM3e+I+R2    2477.657     93  5141.313     5186.492     5529.669
+728  TIM3e+I       2494.586     91  5171.173     5214.217     5551.177
+729  TIM3e+G4      2481.194     91  5144.388     5187.432     5524.392
+730  TIM3e+I+G4    2478.080     92  5140.160     5184.263     5524.340
+731  TIM3e+R2      2483.546     92  5151.092     5195.195     5535.272
+740  TIM3e+I+R2    2477.657     93  5141.313     5186.492     5529.669
+750  TIM3+I        2494.584     91  5171.169     5214.213     5551.173
+751  TIM3+G4       2481.173     91  5144.346     5187.390     5524.350
+752  TIM3+I+G4     2478.056     92  5140.112     5184.215     5524.292
+753  TIM3+R2       2483.538     92  5151.076     5195.179     5535.256
+762  TIM3+I+R2     2477.610     93  5141.221     5186.399     5529.577
+772  TIM3+F+I      2475.920     94  5139.840     5186.109     5532.371
+773  TIM3+F+G4     2465.187     94  5118.374     5164.643     5510.905
+774  TIM3+F+I+G4   2462.783     95  5115.566     5162.942     5512.273
+775  TIM3+F+R2     2468.046     95  5126.091     5173.468     5522.798
+784  TIM3+F+I+R2   2462.111     96  5116.222     5164.722     5517.106
+794  TVMe+I        2493.472     92  5170.944     5215.047     5555.124
+795  TVMe+G4       2479.764     92  5143.528     5187.631     5527.708
+796  TVMe+I+G4     2477.056     93  5140.111     5185.290     5528.467
+797  TVMe+R2       2481.846     93  5149.692     5194.870     5538.048
+806  TVMe+I+R2     2476.934     94  5141.867     5188.137     5534.399
+816  TVMe+I        2493.472     92  5170.944     5215.047     5555.124
+817  TVMe+G4       2479.764     92  5143.528     5187.631     5527.708
+818  TVMe+I+G4     2477.056     93  5140.111     5185.290     5528.467
+819  TVMe+R2       2481.846     93  5149.692     5194.870     5538.048
+828  TVMe+I+R2     2476.934     94  5141.867     5188.137     5534.399
+838  TVM+I         2493.471     92  5170.942     5215.045     5555.122
+839  TVM+G4        2479.749     92  5143.498     5187.601     5527.678
+840  TVM+I+G4      2477.021     93  5140.042     5185.221     5528.398
+841  TVM+R2        2481.832     93  5149.663     5194.842     5538.019
+850  TVM+I+R2      2476.882     94  5141.763     5188.032     5534.295
+860  TVM+F+I       2475.932     95  5141.864     5189.241     5538.571
+861  TVM+F+G4      2464.381     95  5118.762     5166.139     5515.469
+862  TVM+F+I+G4    2461.961     96  5115.921     5164.421     5516.804
+863  TVM+F+R2      2467.456     96  5126.912     5175.412     5527.795
+872  TVM+F+I+R2    2461.354     97  5116.708     5166.348     5521.767
+882  SYM+I         2493.108     93  5172.216     5217.395     5560.572
+883  SYM+G4        2479.271     93  5144.541     5189.720     5532.897
+884  SYM+I+G4      2476.240     94  5140.479     5186.749     5533.011
+885  SYM+R2        2481.514     94  5151.028     5197.298     5543.560
+894  SYM+I+R2      2475.785     95  5141.570     5188.947     5538.278
+904  SYM+I         2493.108     93  5172.216     5217.395     5560.572
+905  SYM+G4        2479.271     93  5144.541     5189.720     5532.897
+906  SYM+I+G4      2476.240     94  5140.479     5186.749     5533.011
+907  SYM+R2        2481.514     94  5151.028     5197.298     5543.560
+916  SYM+I+R2      2475.785     95  5141.570     5188.947     5538.278
+926  GTR+I         2493.108     93  5172.217     5217.395     5560.573
+927  GTR+G4        2479.260     93  5144.520     5189.698     5532.875
+928  GTR+I+G4      2476.228     94  5140.457     5186.726     5532.988
+929  GTR+R2        2481.515     94  5151.030     5197.299     5543.561
+938  GTR+I+R2      2475.767     95  5141.534     5188.911     5538.241
+948  GTR+F+I       2475.544     96  5143.088     5191.588     5543.971
+949  GTR+F+G4      2464.217     96  5120.434     5168.934     5521.317
+950  GTR+F+I+G4    2461.880     97  5117.761     5167.400     5522.820
+951  GTR+F+R2      2467.112     97  5128.224     5177.864     5533.283
+960  GTR+F+I+R2    2461.290     98  5118.580     5169.376     5527.815
+Akaike Information Criterion:           HKY+F+I+G4
+Corrected Akaike Information Criterion: HKY+F+I+G4
+Bayesian Information Criterion:         HKY+F+G4
+Best-fit model: HKY+F+G4 chosen according to BIC
+
+All model information printed to al_fl_am_me_BK_trim753_woutgroups.fa.model.gz
+CPU time for ModelFinder: 3.630 seconds (0h:0m:3s)
+Wall-clock time for ModelFinder: 3.683 seconds (0h:0m:3s)
+Generating 1000 samples for ultrafast bootstrap (seed: 274890)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -2466.430
+2. Current log-likelihood: -2466.110
+Optimal log-likelihood: -2466.108
+Rate parameters:  A-C: 1.00000  A-G: 11.70538  A-T: 1.00000  C-G: 1.00000  C-T: 11.70538  G-T: 1.00000
+Base frequencies:  A: 0.234  C: 0.231  G: 0.199  T: 0.336
+Gamma shape alpha: 0.215
+Parameters optimization took 2 rounds (0.010 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00666487 secs using 99.85% CPU
+Computing ML distances took 0.006730 sec (of wall-clock time) 0.006723 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 7.0906e-05 secs using 100.1% CPU
+Constructing RapidNJ tree: done in 0.000271951 secs using 100% CPU
+Computing RapidNJ tree took 0.000379 sec (of wall-clock time) 0.000379 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -2465.473
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.191 second
+Computing log-likelihood of 98 initial trees ... 0.170 seconds
+Current best score: -2465.473
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2464.749
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -2464.450
+Iteration 10 / LogL: -2467.282 / Time: 0h:0m:4s
+Iteration 20 / LogL: -2466.098 / Time: 0h:0m:5s
+Finish initializing candidate tree set (20)
+Current best tree score: -2464.450 / CPU time: 1.496
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -2464.355
+Iteration 30 / LogL: -2464.355 / Time: 0h:0m:5s (0h:0m:7s left)
+BETTER TREE FOUND at iteration 34: -2464.354
+BETTER TREE FOUND at iteration 38: -2464.349
+Iteration 40 / LogL: -2464.451 / Time: 0h:0m:6s (0h:0m:7s left)
+BETTER TREE FOUND at iteration 49: -2464.348
+BETTER TREE FOUND at iteration 50: -2464.348
+Iteration 50 / LogL: -2464.348 / Time: 0h:0m:7s (0h:0m:7s left)
+Log-likelihood cutoff on original alignment: -2494.054
+Iteration 60 / LogL: -2464.348 / Time: 0h:0m:8s (0h:0m:7s left)
+BETTER TREE FOUND at iteration 66: -2464.347
+Iteration 70 / LogL: -2464.405 / Time: 0h:0m:9s (0h:0m:7s left)
+Iteration 80 / LogL: -2464.455 / Time: 0h:0m:9s (0h:0m:6s left)
+Iteration 90 / LogL: -2464.348 / Time: 0h:0m:10s (0h:0m:5s left)
+Iteration 100 / LogL: -2464.348 / Time: 0h:0m:11s (0h:0m:5s left)
+Log-likelihood cutoff on original alignment: -2491.307
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.980
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -2464.349 / Time: 0h:0m:12s (0h:0m:7s left)
+Iteration 120 / LogL: -2464.355 / Time: 0h:0m:13s (0h:0m:6s left)
+Iteration 130 / LogL: -2464.396 / Time: 0h:0m:14s (0h:0m:5s left)
+Iteration 140 / LogL: -2464.657 / Time: 0h:0m:16s (0h:0m:5s left)
+Iteration 150 / LogL: -2464.760 / Time: 0h:0m:17s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -2491.307
+Iteration 160 / LogL: -2464.367 / Time: 0h:0m:18s (0h:0m:3s left)
+Iteration 170 / LogL: -2464.385 / Time: 0h:0m:20s (0h:0m:2s left)
+BETTER TREE FOUND at iteration 175: -2464.347
+Iteration 180 / LogL: -2464.353 / Time: 0h:0m:21s (0h:0m:9s left)
+Iteration 190 / LogL: -2473.540 / Time: 0h:0m:22s (0h:0m:8s left)
+Iteration 200 / LogL: -2464.350 / Time: 0h:0m:24s (0h:0m:7s left)
+Log-likelihood cutoff on original alignment: -2491.307
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 210 / LogL: -2464.354 / Time: 0h:0m:25s (0h:0m:9s left)
+Iteration 220 / LogL: -2464.383 / Time: 0h:0m:26s (0h:0m:8s left)
+Iteration 230 / LogL: -2464.452 / Time: 0h:0m:28s (0h:0m:7s left)
+BETTER TREE FOUND at iteration 232: -2464.347
+Iteration 240 / LogL: -2465.959 / Time: 0h:0m:29s (0h:0m:9s left)
+Iteration 250 / LogL: -2465.781 / Time: 0h:0m:30s (0h:0m:8s left)
+Log-likelihood cutoff on original alignment: -2491.307
+Iteration 260 / LogL: -2464.352 / Time: 0h:0m:32s (0h:0m:7s left)
+Iteration 270 / LogL: -2467.489 / Time: 0h:0m:33s (0h:0m:6s left)
+Iteration 280 / LogL: -2464.352 / Time: 0h:0m:34s (0h:0m:5s left)
+Iteration 290 / LogL: -2467.481 / Time: 0h:0m:35s (0h:0m:4s left)
+Iteration 300 / LogL: -2464.403 / Time: 0h:0m:36s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -2491.131
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Iteration 310 / LogL: -2464.349 / Time: 0h:0m:38s (0h:0m:10s left)
+Iteration 320 / LogL: -2464.348 / Time: 0h:0m:39s (0h:0m:9s left)
+Iteration 330 / LogL: -2464.349 / Time: 0h:0m:41s (0h:0m:7s left)
+TREE SEARCH COMPLETED AFTER 333 ITERATIONS / Time: 0h:0m:41s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2464.347
+Optimal log-likelihood: -2464.346
+Rate parameters:  A-C: 1.00000  A-G: 11.43821  A-T: 1.00000  C-G: 1.00000  C-T: 11.43821  G-T: 1.00000
+Base frequencies:  A: 0.234  C: 0.231  G: 0.199  T: 0.336
+Gamma shape alpha: 0.218
+Parameters optimization took 1 rounds (0.006 sec)
+BEST SCORE FOUND : -2464.346
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Testing tree branches by aBayes parametric test...
+0.470 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file al_fl_am_me_BK_trim753_woutgroups.fa.splits.nex
+Total tree length: 2.102
+
+Total number of iterations: 333
+CPU time used for tree search: 36.586 sec (0h:0m:36s)
+Wall-clock time used for tree search: 37.900 sec (0h:0m:37s)
+Total CPU time used: 40.873 sec (0h:0m:40s)
+Total wall-clock time used: 42.236 sec (0h:0m:42s)
+
+Computing bootstrap consensus tree...
+Reading input file al_fl_am_me_BK_trim753_woutgroups.fa.splits.nex...
+45 taxa and 1104 splits.
+Consensus tree written to al_fl_am_me_BK_trim753_woutgroups.fa.contree
+Reading input trees file al_fl_am_me_BK_trim753_woutgroups.fa.contree
+Log-likelihood of consensus tree: -2464.364
+
+Analysis results written to: 
+  IQ-TREE report:                al_fl_am_me_BK_trim753_woutgroups.fa.iqtree
+  Maximum-likelihood tree:       al_fl_am_me_BK_trim753_woutgroups.fa.treefile
+  Likelihood distances:          al_fl_am_me_BK_trim753_woutgroups.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          al_fl_am_me_BK_trim753_woutgroups.fa.splits.nex
+  Consensus tree:                al_fl_am_me_BK_trim753_woutgroups.fa.contree
+  Screen log file:               al_fl_am_me_BK_trim753_woutgroups.fa.log
+
+Date and Time: Thu Jul  2 11:39:04 2026

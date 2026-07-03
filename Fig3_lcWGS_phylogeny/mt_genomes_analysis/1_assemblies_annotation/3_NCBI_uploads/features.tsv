@@ -1,0 +1,4 @@
+Sequence_ID	Organism	Collection-date	geo_loc_name	isolate	altitutde	dev-stage	latitude-longitude	tissue-type	note
+Oal_D2_mtDNA	Ommatogammarus albinus	2016-03	Russia: Lake Baikal, Bolshie Koty	Oal_D2	-500	adult	51.89055 N 105.07775 E	pereopods	Raw reads are available via BioProject PRJDB40454
+Ofl_D2_mtDNA	Ommatogammarus flavus	2016-03	Russia: Lake Baikal, Bolshie Koty	Ofl_D2	-150	adult	51.89838 N 105.07400 E	pereopods	Raw reads are available via BioProject PRJDB40454
+Ome_D2_mtDNA	Ommatogammarus melanophthalmus	2016-03	Russia: Lake Baikal, Bolshie Koty	Ome_D2	-200	adult	51.89532 N 105.07382 E	pereopods	Raw reads are available via BioProject PRJDB40454

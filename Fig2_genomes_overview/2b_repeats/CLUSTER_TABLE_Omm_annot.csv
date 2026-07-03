@@ -1,0 +1,356 @@
+Number_of_reads_in_clusters	1020835					
+Number_of_clusters	147812					
+Number_of_superclusters	147776					
+Number_of_singlets	479165					
+Number_of_analyzed_reads	1500000					
+						
+Cluster	Supercluster	Size	Size_adjusted	Automatic_annotation	TAREAN_annotation	Final_annotation
+2	1	10611	10611	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+7	1	8241	8241	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+9	1	8047	8047	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+10	1	7833	7833	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+13	1	7551	7551	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+18	1	6417	6417	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+39	1	4636	4636	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+12	2	7577	7577	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+17	2	6795	6795	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+19	2	6333	6333	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+22	2	5780	5780	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+35	2	4867	4867	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+48	2	4089	4089	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+64	2	3102	3102	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+3	3	10263	10263	All/repeat	Other	Other
+8	3	8231	8231	All/repeat	Other	Other
+14	3	7536	7536	All/repeat	Putative satellites (low confidence)	Other
+26	4	5556	5556	All/repeat/mobile_element/Class_I/LINE	Putative satellites (low confidence)	LINE
+32	4	4953	4953	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+37	4	4688	4688	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+59	4	3329	3329	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+5	5	9053	9053	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+46	5	4118	4118	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+54	5	3740	3740	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+86	5	1308	1308	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+4	6	9062	9062	All	Other	Other
+6	6	8413	8413	All	Other	Other
+55	7	3582	3582	All/repeat/rDNA/45S_rDNA	Putative satellites (low confidence)	45S_rDNA
+60	7	3251	3251	All/repeat/rDNA/45S_rDNA	Putative satellites (low confidence)	45S_rDNA
+63	7	3107	3107	All/repeat/rDNA/45S_rDNA	Other	45S_rDNA
+74	7	2110	2110	All/repeat/rDNA/45S_rDNA	Putative satellites (low confidence)	45S_rDNA
+77	7	2057	2057	All/repeat/rDNA/45S_rDNA	Other	45S_rDNA
+1	8	12680	12680	All	Other	Other
+15	9	7442	7442	All/repeat	Putative satellites (low confidence)	Other
+57	9	3534	3534	All/repeat	Other	Other
+30	10	5035	5035	All/repeat/mobile_element/Class_I/LINE	Putative satellites (low confidence)	LINE
+31	10	5022	5022	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+23	11	5618	5618	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	LTR/Ty3_gypsy
+45	11	4353	4353	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	LTR/Ty3_gypsy
+28	12	5230	5230	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+42	12	4505	4505	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+29	13	5079	5079	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	LTR/Ty3_gypsy
+41	13	4513	4513	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	LTR/Ty3_gypsy
+34	14	4872	4872	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	LTR/Ty3_gypsy
+38	14	4686	4686	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	LTR/Ty3_gypsy
+50	15	3883	3883	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	LTR/Ty3_gypsy
+52	15	3837	3837	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	LTR/Ty3_gypsy
+102	15	917	917	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	LTR/Ty3_gypsy
+27	16	5556	5556	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+65	16	2858	2858	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+11	17	7698	7698	All	Putative LTR elements	LTR
+16	18	7151	7151	All/repeat/mobile_element/Class_I/LTR/Bel-Pao	Putative LTR elements	LTR
+20	19	6113	6113	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+106	19	801	801	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+24	20	5612	5612	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+104	20	872	872	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+21	21	5942	5942	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+25	22	5590	5590	All	Putative LTR elements	LTR
+33	23	4920	4920	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+36	24	4838	4838	All/repeat/mobile_element/Class_I/DIRS	Other	DIRS
+40	25	4545	4545	All	Other	Other
+43	26	4398	4398	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+44	27	4373	4373	All	Other	Other
+47	28	4111	4111	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+49	29	3968	3968	All	Other	Other
+51	30	3879	3879	All	Other	Other
+53	31	3784	3784	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+56	32	3564	3564	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Putative satellites (low confidence)	LTR/Ty3_gypsy
+58	33	3426	3426	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+61	34	3220	3220	All	Other	Other
+62	35	3151	3151	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+66	36	2743	2743	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+67	37	2718	2718	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+68	38	2614	2614	All/repeat/mobile_element/Class_I/LTR	Putative LTR elements	LTR
+69	39	2604	2604	All	Putative LTR elements	LTR
+70	40	2400	2400	All	Other	Other
+71	41	2283	2283	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+72	42	2186	2186	All	Other	Other
+73	43	2112	2112	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+75	44	2110	2110	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+76	45	2075	2075	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+78	46	1861	1861	All	Other	Other
+79	47	1802	1802	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+80	48	1633	1633	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+81	49	1501	1501	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+82	50	1471	1471	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+83	51	1454	1454	All	Other	Other
+84	52	1443	1443	All	Other	Other
+85	53	1378	1378	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+87	54	1242	1242	All/repeat/mobile_element/Class_I/Penelope	Other	Penelope
+88	55	1241	1241	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+89	56	1208	1208	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+90	57	1201	1201	All	Other	Other
+91	58	1165	1165	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+92	59	1131	1131	All	Other	Other
+93	60	1117	1117	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+94	61	1114	1114	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+95	62	1109	1109	All	Other	Other
+96	63	1098	1098	All	Other	Other
+97	64	1059	1059	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+98	65	1024	1024	All/repeat/mobile_element/Class_I/LTR	Putative LTR elements	LTR
+99	66	1005	1005	All	Other	Other
+100	67	953	953	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+101	68	946	946	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+103	69	908	908	All	Other	Other
+105	70	826	826	All	Other	Other
+107	71	778	778	All	Other	Other
+108	72	735	735	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+109	73	713	713	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+110	74	669	669	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+111	75	664	664	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+112	76	650	650	All	Other	Other
+113	77	634	634	All	Other	Other
+114	78	621	621	All	Other	Other
+115	79	601	601	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+116	80	595	595	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+117	81	588	588	All	Other	Other
+118	82	575	575	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+119	83	571	571	All	Other	Other
+120	84	563	563	All	Other	Other
+121	85	561	561	All	Other	Other
+122	86	554	554	All	Other	Other
+123	87	548	548	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+124	88	542	542	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+125	89	538	538	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+126	90	537	537	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+127	91	533	533	All	Other	Other
+128	92	529	529	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+129	93	528	528	All	Other	Other
+130	94	527	527	All	Other	Other
+131	95	520	520	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+132	96	514	514	All	Other	Other
+133	97	507	507	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+134	98	506	506	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+135	99	504	504	All	Other	Other
+136	100	504	504	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+137	101	500	500	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+138	102	476	476	All	Other	Other
+139	103	470	470	All/repeat/mobile_element/Class_I/LINE	Other	LINE
+140	104	467	467	All	Other	Other
+141	105	462	462	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+142	106	455	455	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+143	107	452	452	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+144	108	451	451	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+145	109	444	444	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+146	110	432	432	All	Other	Other
+147	111	422	422	All	Other	Other
+148	112	420	420	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+149	113	411	411	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+150	114	398	398	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+151	115	396	396	All	Other	Other
+152	116	395	395	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+153	117	395	395	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+154	118	389	389	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+155	119	383	383	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+156	120	382	382	All	Other	Other
+157	121	375	375	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+158	122	374	374	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+159	123	371	371	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+160	124	371	371	All	Other	Other
+161	125	370	370	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+162	126	369	369	All	Other	Other
+163	127	368	368	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+164	128	366	366	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+165	129	365	365	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+166	130	364	364	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+167	131	363	363	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+168	132	361	361	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+169	133	360	360	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+170	134	355	355	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+171	135	353	353	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+172	136	350	350	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+173	137	347	347	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+174	138	347	347	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+175	139	344	344	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+176	140	343	343	All	Other	Other
+177	141	343	343	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+178	142	341	341	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+179	143	340	340	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+180	144	330	330	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+181	145	323	323	All	Other	Other
+182	146	320	320	All	Other	Other
+183	147	316	316	All	Other	Other
+184	148	314	314	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+185	149	313	313	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+186	150	313	313	All	Other	Other
+187	151	311	311	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+188	152	311	311	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+189	153	308	308	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+190	154	305	305	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+191	155	300	300	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+192	156	295	295	All	Other	Other
+193	157	293	293	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+194	158	291	291	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+195	159	290	290	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+196	160	288	288	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+197	161	287	287	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+198	162	285	285	All	Other	Other
+199	163	285	285	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+200	164	284	284	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+201	165	284	284	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+202	166	283	283	All	Other	Other
+203	167	282	282	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+204	168	281	281	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+205	169	275	275	All	Other	Other
+206	170	274	274	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+207	171	272	272	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+208	172	267	267	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+209	173	265	265	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+210	174	263	263	All	Other	Other
+211	175	262	262	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+212	176	261	261	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+213	177	253	253	All	Other	Other
+214	178	251	251	All	Other	Other
+215	179	249	249	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+216	180	248	248	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+217	181	247	247	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+218	182	246	246	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+219	183	245	245	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+220	184	244	244	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+221	185	244	244	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+222	186	243	243	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+223	187	242	242	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+224	188	237	237	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+225	189	237	237	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+226	190	234	234	All	Other	Other
+227	191	233	233	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+228	192	232	232	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+229	193	232	232	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+230	194	232	232	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+231	195	230	230	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+232	196	230	230	All	Other	Other
+233	197	228	228	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+234	198	228	228	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+235	199	227	227	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+236	200	225	225	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+237	201	224	224	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+238	202	223	223	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+239	203	222	222	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+240	204	221	221	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+241	205	220	220	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+242	206	220	220	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+243	207	218	218	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+244	208	218	218	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+245	209	218	218	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+246	210	218	218	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+247	211	212	212	All	Other	Other
+248	212	212	212	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+249	213	212	212	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+250	214	212	212	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+251	215	212	212	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+252	216	210	210	All	Other	Other
+253	217	209	209	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+254	218	208	208	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+255	219	208	208	All	Other	Other
+256	220	204	204	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+257	221	204	204	All	Other	Other
+258	222	203	203	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+259	223	203	203	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+260	224	202	202	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+261	225	202	202	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+262	226	201	201	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+263	227	201	201	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+264	228	201	201	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+265	229	200	200	All	Other	Other
+266	230	199	199	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+267	231	198	198	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+268	232	198	198	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+269	233	198	198	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+270	234	198	198	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+271	235	197	197	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+272	236	197	197	All/repeat/mobile_element/Class_I/LTR/Ty3_gypsy	Other	LTR/Ty3_gypsy
+273	237	197	197	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+274	238	195	195	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+275	239	194	194	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+276	240	194	194	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+277	241	193	193	All	Other	Other
+278	242	192	192	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+279	243	191	191	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+280	244	191	191	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+281	245	191	191	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+282	246	190	190	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+283	247	188	188	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+284	248	186	186	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+285	249	184	184	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+286	250	183	183	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+287	251	183	183	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+288	252	182	182	All	Other	Other
+289	253	182	182	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+290	254	181	181	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+291	255	180	180	All	Other	Other
+292	256	179	179	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+293	257	177	177	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+294	258	176	176	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+295	259	175	175	All	Other	Other
+296	260	175	175	All	Other	Other
+297	261	174	174	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+298	262	172	172	All	Other	Other
+299	263	172	172	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+300	264	172	172	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+301	265	171	171	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+302	266	171	171	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+303	267	171	171	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+304	268	170	170	All	Other	Other
+305	269	170	170	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+306	270	166	166	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+307	271	166	166	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+308	272	165	165	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+309	273	165	165	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+310	274	165	165	All	Other	Other
+311	275	164	164	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+312	276	164	164	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+313	277	163	163	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+314	278	163	163	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+315	279	163	163	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+316	280	163	163	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+317	281	162	162	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+318	282	162	162	All	Other	Other
+319	283	162	162	All	Other	Other
+320	284	162	162	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+321	285	162	162	All	Other	Other
+322	286	162	162	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+323	287	161	161	All	Other	Other
+324	288	160	160	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+325	289	160	160	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+326	290	160	160	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+327	291	159	159	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+328	292	159	159	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+329	293	159	159	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+330	294	158	158	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+331	295	157	157	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+332	296	157	157	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+333	297	157	157	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+334	298	156	156	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+335	299	156	156	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+336	300	155	155	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+337	301	155	155	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+338	302	155	155	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+339	303	154	154	All	Other	Other
+340	304	153	153	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+341	305	153	153	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+342	306	153	153	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+343	307	152	152	All/repeat/satellite	Putative satellites (low confidence)	Satellite
+344	308	152	152	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+345	309	152	152	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+346	310	152	152	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+347	311	152	152	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+348	312	150	150	All/repeat/satellite	Putative satellites (high confidence)	Satellite
+349	313	150	150	All	Other	Other

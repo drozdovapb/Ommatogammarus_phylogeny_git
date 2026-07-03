@@ -1,0 +1,318 @@
+IQ-TREE version 3.1.0 for Linux x86 64-bit built Mar 12 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    drozdovapb-HP-17-by1xxx (AVX2, FMA3, 11 GB RAM)
+Command: /home/drozdovapb/lib/iqtree-3.1.0-Linux/bin/iqtree3_intel -s al_fl_am_me_BK_trim481.fa -m GTR+I+G --prefix omm --redo
+Seed:    944567 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun 12 12:16:36 2026
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file al_fl_am_me_BK_trim481.fa ... Fasta format detected
+Reading fasta file: done in 0.0027196 secs using 49.93% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00227397 secs using 99.78% CPU
+Alignment has 90 sequences with 481 columns, 81 distinct patterns
+110 parsimony-informative, 7 singleton sites, 364 constant sites
+                                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 9.7508e-05 secs using 95.38% CPU
+   1  PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_     0.00%    passed     50.31%
+   2  PV474291_Ommatogammarus_albinus_isolate_BK_15_Oa_650m_      0.00%    passed     50.31%
+   3  PV474292_Ommatogammarus_albinus_isolate_BK_16_Oa_250m_      0.00%    passed     50.31%
+   4  PV474293_Ommatogammarus_albinus_isolate_BK_22_Oa_1000m_     0.00%    passed     55.81%
+   5  PV474294_Ommatogammarus_albinus_isolate_BK_23_Oa_650m_      0.00%    passed     50.31%
+   6  PV474295_Ommatogammarus_albinus_isolate_BK_24_Oa_250m_      0.00%    passed     50.31%
+   7  PV474296_Ommatogammarus_albinus_isolate_BK_30_Oa_1000m_     0.00%    passed     50.31%
+   8  PV474297_Ommatogammarus_albinus_isolate_BK_32_Oa_250m_      0.00%    passed     50.31%
+   9  PV474298_Ommatogammarus_albinus_isolate_BK_36_Oa_1000m_     0.00%    passed     50.31%
+  10  PV474299_Ommatogammarus_albinus_isolate_BK_37_Oa_100m_      0.00%    passed     50.31%
+  11  PV474300_Ommatogammarus_albinus_isolate_BK_38_Oa_100m_      0.00%    passed     50.31%
+  12  PV474301_Ommatogammarus_albinus_isolate_BK_39_Oa_100m_      0.00%    passed     50.31%
+  13  PV474302_Ommatogammarus_albinus_isolate_BK_40_Oa_100m_      0.00%    passed     50.31%
+  14  PV474303_Ommatogammarus_albinus_isolate_BK_45_Oa_1000m_     0.00%    passed     50.31%
+  15  PV474304_Ommatogammarus_albinus_isolate_BK_46_Oa_650m_      0.00%    passed     50.31%
+  16  PV474305_Ommatogammarus_albinus_isolate_BK_47_Oa_250m_      0.00%    passed     50.31%
+  17  PV474306_Ommatogammarus_albinus_isolate_BK_48_Oa_100m_      0.00%    passed     50.31%
+  18  PV474307_Ommatogammarus_albinus_isolate_BK_6_Oa_1000m_      0.00%    passed     50.31%
+  19  PV474308_Ommatogammarus_albinus_isolate_BK_7_Oa_650m_       0.00%    passed     50.31%
+  20  PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_       0.00%    passed     99.24%
+  21  PV474348_Ommatogammarus_flavus_isolate_BK_11_Of_250m_       0.00%    passed     99.24%
+  22  PV474349_Ommatogammarus_flavus_isolate_BK_12_Of_100m_       0.00%    passed     99.24%
+  23  PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_        0.00%    passed     99.72%
+  24  PV474351_Ommatogammarus_flavus_isolate_BK_17_Of_1000m_      0.00%    passed     99.72%
+  25  PV474352_Ommatogammarus_flavus_isolate_BK_18_Of_650m_       0.00%    passed     99.55%
+  26  PV474353_Ommatogammarus_flavus_isolate_BK_19_Of_250m_       0.00%    passed     99.24%
+  27  PV474354_Ommatogammarus_flavus_isolate_BK_1_Of_1000m_       0.00%    passed     99.72%
+  28  PV474355_Ommatogammarus_flavus_isolate_BK_20_Of_100m_       0.00%    passed     99.24%
+  29  PV474356_Ommatogammarus_flavus_isolate_BK_21_Of_25m_        0.00%    passed     99.24%
+  30  PV474357_Ommatogammarus_flavus_isolate_BK_25_Of_1000m_      0.00%    passed     99.24%
+  31  PV474358_Ommatogammarus_flavus_isolate_BK_26_Of_650m_       0.00%    passed     99.72%
+  32  PV474359_Ommatogammarus_flavus_isolate_BK_27_Of_250m_       0.00%    passed     99.72%
+  33  PV474360_Ommatogammarus_flavus_isolate_BK_28_Of_100m_       0.00%    passed     99.24%
+  34  PV474361_Ommatogammarus_flavus_isolate_BK_29_Of_25m_        0.00%    passed     99.24%
+  35  PV474362_Ommatogammarus_flavus_isolate_BK_2_Of_650m_        0.00%    passed     99.55%
+  36  PV474363_Ommatogammarus_flavus_isolate_BK_31_Of_650m_       0.42%    passed     99.11%
+  37  PV474364_Ommatogammarus_flavus_isolate_BK_33_Of_1000m_      0.00%    passed     99.24%
+  38  PV474365_Ommatogammarus_flavus_isolate_BK_34_Of_1000m_      0.00%    passed     99.72%
+  39  PV474366_Ommatogammarus_flavus_isolate_BK_35_Of_25m_        0.00%    passed     99.72%
+  40  PV474367_Ommatogammarus_flavus_isolate_BK_3_Of_250m_        0.00%    passed     99.24%
+  41  PV474368_Ommatogammarus_flavus_isolate_BK_41_Of_1000m_      0.00%    passed     99.24%
+  42  PV474369_Ommatogammarus_flavus_isolate_BK_42_31_Of_650m_    0.00%    passed     99.55%
+  43  PV474370_Ommatogammarus_flavus_isolate_BK_43_Of_250m_       0.00%    passed     99.24%
+  44  PV474371_Ommatogammarus_flavus_isolate_BK_44_Of_100m_       0.00%    passed     99.72%
+  45  PV474372_Ommatogammarus_flavus_isolate_BK_4_Of_100m_        0.00%    passed     99.24%
+  46  PZ495199_Pretiositus_amethystinus_isolate_Ocsp_21_1_        0.00%    passed     93.90%
+  47  PZ495200_Pretiositus_amethystinus_isolate_Ocsp_21_2_        0.00%    passed     97.28%
+  48  PZ495201_Pretiositus_amethystinus_isolate_Ocsp_21_3_        0.00%    passed     94.57%
+  49  PZ495202_Pretiositus_amethystinus_isolate_Ocsp_21_4_        0.00%    passed     93.90%
+  50  PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_        0.00%    passed     90.69%
+  51  PZ495204_Pretiositus_amethystinus_isolate_Ocsp_21_6_        0.00%    passed     96.71%
+  52  PZ495205_Pretiositus_amethystinus_isolate_Ocsp_21_7_        0.00%    passed     90.69%
+  53  PZ495206_Pretiositus_amethystinus_isolate_Ocsp_21_8_        0.00%    passed     94.62%
+  54  PZ495207_Pretiositus_amethystinus_isolate_Ocsp_21_9_        0.00%    passed     93.90%
+  55  PZ495208_Pretiositus_amethystinus_isolate_Ocsp_21_10_       0.00%    passed     96.12%
+  56  PZ495209_Pretiositus_amethystinus_isolate_Ocsp_21_11_       0.00%    passed     90.69%
+  57  PZ495210_Pretiositus_amethystinus_isolate_Ocsp_21_12_       0.00%    passed     84.70%
+  58  PZ495211_Pretiositus_amethystinus_isolate_Ocsp_21_13_       0.00%    passed     90.69%
+  59  PZ495212_Pretiositus_amethystinus_isolate_Ocsp_21_14_       0.00%    passed     90.69%
+  60  PZ495213_Pretiositus_amethystinus_isolate_Ocsp_21_15_       0.00%    passed     90.69%
+  61  PZ495214_Pretiositus_amethystinus_isolate_Ocsp_21_16_       0.00%    passed     96.71%
+  62  PZ495215_Pretiositus_amethystinus_isolate_Ocsp_21_17_       0.00%    passed     88.44%
+  63  PZ495216_Pretiositus_amethystinus_isolate_Ocsp_21_18_       0.00%    passed     90.69%
+  64  PZ495217_Pretiositus_amethystinus_isolate_Ocsp_21_19_       0.00%    passed     94.57%
+  65  PZ495218_Pretiositus_melanophthalmus_isolate_Ome_21_35_     0.00%    passed     50.61%
+  66  PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_     0.00%    passed     43.66%
+  67  PZ495220_Pretiositus_amethystinus_isolate_Ocsp_23_1_        0.00%    passed     89.90%
+  68  PZ495221_Pretiositus_amethystinus_isolate_Ocsp_23_2_        0.00%    passed     90.69%
+  69  PZ495222_Pretiositus_melanophthalmus_isolate_Ome_23_3_      0.00%    passed     43.66%
+  70  PZ495223_Pretiositus_amethystinus_isolate_Ocsp_23_4_        0.00%    passed     90.69%
+  71  PZ495224_Pretiositus_amethystinus_isolate_Ocsp_23_5_        0.00%    passed     90.69%
+  72  PZ495225_Pretiositus_amethystinus_isolate_Ocsp_23_6_        0.00%    passed     97.28%
+  73  PZ495226_Pretiositus_amethystinus_isolate_Ocsp_23_7_        0.00%    passed     96.09%
+  74  PZ495227_Pretiositus_amethystinus_isolate_Ocsp_23_9_        0.00%    passed     93.90%
+  75  PZ495228_Pretiositus_melanophthalmus_isolate_Ome_23_10_     0.00%    passed     43.66%
+  76  PZ495229_Pretiositus_melanophthalmus_isolate_Ome_23_11_     0.00%    passed     37.05%
+  77  PZ495230_Pretiositus_amethystinus_isolate_Ocsp_23_12_       0.00%    passed     94.62%
+  78  PZ495231_Pretiositus_amethystinus_isolate_Ocsp_23_13_       0.00%    passed     94.57%
+  79  PZ495232_Pretiositus_amethystinus_isolate_Ocsp_23_14_       0.00%    passed     90.48%
+  80  PZ495233_Pretiositus_melanophthalmus_isolate_Ome_25_1_      0.00%    passed     43.66%
+  81  PZ495234_Pretiositus_melanophthalmus_isolate_Ome_25_2_      0.00%    passed     43.66%
+  82  PZ495235_Pretiositus_melanophthalmus_isolate_Ome_25_3_      0.00%    passed     43.66%
+  83  PZ495236_Pretiositus_melanophthalmus_isolate_Ome_25_4_      0.00%    passed     43.78%
+  84  PZ495237_Pretiositus_melanophthalmus_isolate_Ome_25_5_      0.00%    passed     43.78%
+  85  PZ495238_Pretiositus_melanophthalmus_isolate_Ome_25_7_      0.00%    passed     43.66%
+  86  PZ495239_Pretiositus_melanophthalmus_isolate_Ome_25_8_      0.00%    passed     43.78%
+  87  PZ495240_Pretiositus_melanophthalmus_isolate_Ome_25_9_      0.00%    passed     43.66%
+  88  PZ495241_Pretiositus_melanophthalmus_isolate_Ome_25_11_     0.00%    passed     43.66%
+  89  PZ495242_Pretiositus_melanophthalmus_isolate_Ome_25_13_     0.00%    passed     43.66%
+  90  PZ495243_Pretiositus_melanophthalmus_isolate_Ohy_25_        0.00%    passed     41.51%
+****  TOTAL                                                       0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: PV474291_Ommatogammarus_albinus_isolate_BK_15_Oa_650m_ is identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_ but kept for subsequent analysis
+NOTE: PV474348_Ommatogammarus_flavus_isolate_BK_11_Of_250m_ is identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_ but kept for subsequent analysis
+NOTE: PV474351_Ommatogammarus_flavus_isolate_BK_17_Of_1000m_ is identical to PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_ but kept for subsequent analysis
+NOTE: PZ495207_Pretiositus_amethystinus_isolate_Ocsp_21_9_ is identical to PZ495202_Pretiositus_amethystinus_isolate_Ocsp_21_4_ but kept for subsequent analysis
+NOTE: PZ495205_Pretiositus_amethystinus_isolate_Ocsp_21_7_ is identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_ but kept for subsequent analysis
+NOTE: PZ495214_Pretiositus_amethystinus_isolate_Ocsp_21_16_ is identical to PZ495204_Pretiositus_amethystinus_isolate_Ocsp_21_6_ but kept for subsequent analysis
+NOTE: PZ495231_Pretiositus_amethystinus_isolate_Ocsp_23_13_ is identical to PZ495217_Pretiositus_amethystinus_isolate_Ocsp_21_19_ but kept for subsequent analysis
+NOTE: PZ495222_Pretiositus_melanophthalmus_isolate_Ome_23_3_ is identical to PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_ but kept for subsequent analysis
+NOTE: PZ495237_Pretiositus_melanophthalmus_isolate_Ome_25_5_ is identical to PZ495236_Pretiositus_melanophthalmus_isolate_Ome_25_4_ but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000719982 secs using 60% CPU
+Identifying sites to remove: done in 0.000822402 secs using 99.71% CPU
+NOTE: 49 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: PV474292_Ommatogammarus_albinus_isolate_BK_16_Oa_250m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474294_Ommatogammarus_albinus_isolate_BK_23_Oa_650m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474295_Ommatogammarus_albinus_isolate_BK_24_Oa_250m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474296_Ommatogammarus_albinus_isolate_BK_30_Oa_1000m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474297_Ommatogammarus_albinus_isolate_BK_32_Oa_250m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474298_Ommatogammarus_albinus_isolate_BK_36_Oa_1000m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474299_Ommatogammarus_albinus_isolate_BK_37_Oa_100m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474300_Ommatogammarus_albinus_isolate_BK_38_Oa_100m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474301_Ommatogammarus_albinus_isolate_BK_39_Oa_100m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474302_Ommatogammarus_albinus_isolate_BK_40_Oa_100m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474303_Ommatogammarus_albinus_isolate_BK_45_Oa_1000m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474304_Ommatogammarus_albinus_isolate_BK_46_Oa_650m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474305_Ommatogammarus_albinus_isolate_BK_47_Oa_250m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474306_Ommatogammarus_albinus_isolate_BK_48_Oa_100m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474307_Ommatogammarus_albinus_isolate_BK_6_Oa_1000m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474308_Ommatogammarus_albinus_isolate_BK_7_Oa_650m_ (identical to PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_) is ignored but added at the end
+NOTE: PV474349_Ommatogammarus_flavus_isolate_BK_12_Of_100m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474353_Ommatogammarus_flavus_isolate_BK_19_Of_250m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474355_Ommatogammarus_flavus_isolate_BK_20_Of_100m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474356_Ommatogammarus_flavus_isolate_BK_21_Of_25m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474357_Ommatogammarus_flavus_isolate_BK_25_Of_1000m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474360_Ommatogammarus_flavus_isolate_BK_28_Of_100m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474361_Ommatogammarus_flavus_isolate_BK_29_Of_25m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474364_Ommatogammarus_flavus_isolate_BK_33_Of_1000m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474367_Ommatogammarus_flavus_isolate_BK_3_Of_250m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474368_Ommatogammarus_flavus_isolate_BK_41_Of_1000m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474370_Ommatogammarus_flavus_isolate_BK_43_Of_250m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474372_Ommatogammarus_flavus_isolate_BK_4_Of_100m_ (identical to PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_) is ignored but added at the end
+NOTE: PV474354_Ommatogammarus_flavus_isolate_BK_1_Of_1000m_ (identical to PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_) is ignored but added at the end
+NOTE: PV474358_Ommatogammarus_flavus_isolate_BK_26_Of_650m_ (identical to PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_) is ignored but added at the end
+NOTE: PV474359_Ommatogammarus_flavus_isolate_BK_27_Of_250m_ (identical to PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_) is ignored but added at the end
+NOTE: PV474365_Ommatogammarus_flavus_isolate_BK_34_Of_1000m_ (identical to PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_) is ignored but added at the end
+NOTE: PV474366_Ommatogammarus_flavus_isolate_BK_35_Of_25m_ (identical to PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_) is ignored but added at the end
+NOTE: PV474371_Ommatogammarus_flavus_isolate_BK_44_Of_100m_ (identical to PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_) is ignored but added at the end
+NOTE: PZ495209_Pretiositus_amethystinus_isolate_Ocsp_21_11_ (identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_) is ignored but added at the end
+NOTE: PZ495211_Pretiositus_amethystinus_isolate_Ocsp_21_13_ (identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_) is ignored but added at the end
+NOTE: PZ495212_Pretiositus_amethystinus_isolate_Ocsp_21_14_ (identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_) is ignored but added at the end
+NOTE: PZ495213_Pretiositus_amethystinus_isolate_Ocsp_21_15_ (identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_) is ignored but added at the end
+NOTE: PZ495216_Pretiositus_amethystinus_isolate_Ocsp_21_18_ (identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_) is ignored but added at the end
+NOTE: PZ495221_Pretiositus_amethystinus_isolate_Ocsp_23_2_ (identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_) is ignored but added at the end
+NOTE: PZ495223_Pretiositus_amethystinus_isolate_Ocsp_23_4_ (identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_) is ignored but added at the end
+NOTE: PZ495224_Pretiositus_amethystinus_isolate_Ocsp_23_5_ (identical to PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_) is ignored but added at the end
+NOTE: PZ495228_Pretiositus_melanophthalmus_isolate_Ome_23_10_ (identical to PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_) is ignored but added at the end
+NOTE: PZ495233_Pretiositus_melanophthalmus_isolate_Ome_25_1_ (identical to PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_) is ignored but added at the end
+NOTE: PZ495234_Pretiositus_melanophthalmus_isolate_Ome_25_2_ (identical to PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_) is ignored but added at the end
+NOTE: PZ495235_Pretiositus_melanophthalmus_isolate_Ome_25_3_ (identical to PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_) is ignored but added at the end
+NOTE: PZ495238_Pretiositus_melanophthalmus_isolate_Ome_25_7_ (identical to PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_) is ignored but added at the end
+NOTE: PZ495241_Pretiositus_melanophthalmus_isolate_Ome_25_11_ (identical to PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_) is ignored but added at the end
+NOTE: PZ495242_Pretiositus_melanophthalmus_isolate_Ome_25_13_ (identical to PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_) is ignored but added at the end
+Alignment was printed to omm.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to omm.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.194 / LogL: -1478.633
+Init pinv, alpha: 0.084, 1.000 / Estimate: 0.083, 0.239 / LogL: -1478.424
+Init pinv, alpha: 0.168, 1.000 / Estimate: 0.166, 0.284 / LogL: -1478.289
+Init pinv, alpha: 0.252, 1.000 / Estimate: 0.249, 0.347 / LogL: -1478.215
+Init pinv, alpha: 0.336, 1.000 / Estimate: 0.333, 0.440 / LogL: -1478.195
+Init pinv, alpha: 0.420, 1.000 / Estimate: 0.417, 0.588 / LogL: -1478.220
+Init pinv, alpha: 0.505, 1.000 / Estimate: 0.501, 0.857 / LogL: -1478.299
+Init pinv, alpha: 0.589, 1.000 / Estimate: 0.582, 1.489 / LogL: -1478.484
+Init pinv, alpha: 0.673, 1.000 / Estimate: 0.642, 3.363 / LogL: -1478.907
+Init pinv, alpha: 0.757, 1.000 / Estimate: 0.645, 3.599 / LogL: -1478.934
+Optimal pinv,alpha: 0.333, 0.440 / LogL: -1478.195
+
+Parameters optimization took 0.360 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00535646 secs using 97.04% CPU
+Computing ML distances took 0.005396 sec (of wall-clock time) 0.005240 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 6.0262e-05 secs using 97.91% CPU
+Constructing RapidNJ tree: done in 0.000213145 secs using 99.46% CPU
+Computing RapidNJ tree took 0.000303 sec (of wall-clock time) 0.000303 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -1476.145
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.106 second
+Computing log-likelihood of 98 initial trees ... 0.102 seconds
+Current best score: -1476.145
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1476.110
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -1475.823
+BETTER TREE FOUND at iteration 3: -1475.823
+Iteration 10 / LogL: -1476.014 / Time: 0h:0m:0s
+Iteration 20 / LogL: -1476.471 / Time: 0h:0m:0s
+Finish initializing candidate tree set (20)
+Current best tree score: -1475.823 / CPU time: 0.466
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -1475.829 / Time: 0h:0m:1s (0h:0m:2s left)
+Iteration 40 / LogL: -1475.825 / Time: 0h:0m:1s (0h:0m:2s left)
+Iteration 50 / LogL: -1475.827 / Time: 0h:0m:1s (0h:0m:1s left)
+BETTER TREE FOUND at iteration 54: -1475.823
+Iteration 60 / LogL: -1499.184 / Time: 0h:0m:1s (0h:0m:2s left)
+Iteration 70 / LogL: -1475.828 / Time: 0h:0m:2s (0h:0m:2s left)
+Iteration 80 / LogL: -1475.825 / Time: 0h:0m:2s (0h:0m:2s left)
+Iteration 90 / LogL: -1475.826 / Time: 0h:0m:2s (0h:0m:1s left)
+Iteration 100 / LogL: -1475.825 / Time: 0h:0m:2s (0h:0m:1s left)
+Iteration 110 / LogL: -1475.824 / Time: 0h:0m:2s (0h:0m:1s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 115: -1475.456
+Iteration 120 / LogL: -1475.825 / Time: 0h:0m:3s (0h:0m:2s left)
+BETTER TREE FOUND at iteration 126: -1475.456
+Iteration 130 / LogL: -1475.460 / Time: 0h:0m:3s (0h:0m:2s left)
+Iteration 140 / LogL: -1475.833 / Time: 0h:0m:3s (0h:0m:2s left)
+Iteration 150 / LogL: -1475.458 / Time: 0h:0m:3s (0h:0m:2s left)
+Iteration 160 / LogL: -1475.458 / Time: 0h:0m:4s (0h:0m:1s left)
+BETTER TREE FOUND at iteration 162: -1475.456
+Iteration 170 / LogL: -1475.456 / Time: 0h:0m:4s (0h:0m:2s left)
+Iteration 180 / LogL: -1475.834 / Time: 0h:0m:4s (0h:0m:2s left)
+Iteration 190 / LogL: -1508.529 / Time: 0h:0m:4s (0h:0m:1s left)
+BETTER TREE FOUND at iteration 193: -1475.455
+Iteration 200 / LogL: -1475.459 / Time: 0h:0m:5s (0h:0m:2s left)
+Iteration 210 / LogL: -1475.460 / Time: 0h:0m:5s (0h:0m:2s left)
+Iteration 220 / LogL: -1475.458 / Time: 0h:0m:5s (0h:0m:1s left)
+Iteration 230 / LogL: -1475.455 / Time: 0h:0m:5s (0h:0m:1s left)
+Iteration 240 / LogL: -1475.457 / Time: 0h:0m:6s (0h:0m:1s left)
+BETTER TREE FOUND at iteration 242: -1475.455
+Iteration 250 / LogL: -1475.458 / Time: 0h:0m:6s (0h:0m:2s left)
+Iteration 260 / LogL: -1476.679 / Time: 0h:0m:6s (0h:0m:2s left)
+BETTER TREE FOUND at iteration 262: -1475.455
+Iteration 270 / LogL: -1475.457 / Time: 0h:0m:6s (0h:0m:2s left)
+Iteration 280 / LogL: -1475.458 / Time: 0h:0m:7s (0h:0m:2s left)
+Iteration 290 / LogL: -1476.985 / Time: 0h:0m:7s (0h:0m:1s left)
+Iteration 300 / LogL: -1475.455 / Time: 0h:0m:7s (0h:0m:1s left)
+Iteration 310 / LogL: -1475.459 / Time: 0h:0m:7s (0h:0m:1s left)
+Iteration 320 / LogL: -1475.458 / Time: 0h:0m:8s (0h:0m:1s left)
+Iteration 330 / LogL: -1475.832 / Time: 0h:0m:8s (0h:0m:0s left)
+Iteration 340 / LogL: -1475.455 / Time: 0h:0m:8s (0h:0m:0s left)
+Iteration 350 / LogL: -1475.457 / Time: 0h:0m:8s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 357: -1475.455
+Iteration 360 / LogL: -1475.456 / Time: 0h:0m:9s (0h:0m:2s left)
+Iteration 370 / LogL: -1475.456 / Time: 0h:0m:9s (0h:0m:2s left)
+Iteration 380 / LogL: -1475.474 / Time: 0h:0m:9s (0h:0m:1s left)
+Iteration 390 / LogL: -1483.108 / Time: 0h:0m:9s (0h:0m:1s left)
+Iteration 400 / LogL: -1475.457 / Time: 0h:0m:9s (0h:0m:1s left)
+Iteration 410 / LogL: -1501.984 / Time: 0h:0m:10s (0h:0m:1s left)
+Iteration 420 / LogL: -1475.832 / Time: 0h:0m:10s (0h:0m:0s left)
+Iteration 430 / LogL: -1475.456 / Time: 0h:0m:10s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 440: -1475.455
+Iteration 440 / LogL: -1475.455 / Time: 0h:0m:10s (0h:0m:2s left)
+Iteration 450 / LogL: -1475.455 / Time: 0h:0m:11s (0h:0m:2s left)
+Iteration 460 / LogL: -1485.545 / Time: 0h:0m:11s (0h:0m:1s left)
+Iteration 470 / LogL: -1475.456 / Time: 0h:0m:11s (0h:0m:1s left)
+Iteration 480 / LogL: -1475.456 / Time: 0h:0m:11s (0h:0m:1s left)
+Iteration 490 / LogL: -1499.913 / Time: 0h:0m:12s (0h:0m:1s left)
+Iteration 500 / LogL: -1475.456 / Time: 0h:0m:12s (0h:0m:0s left)
+Iteration 510 / LogL: -1476.734 / Time: 0h:0m:12s (0h:0m:0s left)
+Iteration 520 / LogL: -1475.457 / Time: 0h:0m:12s (0h:0m:0s left)
+Iteration 530 / LogL: -1475.456 / Time: 0h:0m:13s (0h:0m:0s left)
+Iteration 540 / LogL: -1476.680 / Time: 0h:0m:13s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 541 ITERATIONS / Time: 0h:0m:13s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1475.455
+Optimal log-likelihood: -1475.453
+Rate parameters:  A-C: 1.34466  A-G: 10.89046  A-T: 0.00010  C-G: 0.60756  C-T: 8.92209  G-T: 1.00000
+Warning! Some parameters hit the boundaries
+Base frequencies:  A: 0.232  C: 0.232  G: 0.199  T: 0.337
+Proportion of invariable sites: 0.333
+Gamma shape alpha: 0.451
+Parameters optimization took 1 rounds (0.009 sec)
+BEST SCORE FOUND : -1475.453
+Total tree length: 0.520
+
+Total number of iterations: 541
+CPU time used for tree search: 12.404 sec (0h:0m:12s)
+Wall-clock time used for tree search: 13.319 sec (0h:0m:13s)
+Total CPU time used: 12.790 sec (0h:0m:12s)
+Total wall-clock time used: 13.711 sec (0h:0m:13s)
+
+Analysis results written to: 
+  IQ-TREE report:                omm.iqtree
+  Maximum-likelihood tree:       omm.treefile
+  Likelihood distances:          omm.mldist
+  Screen log file:               omm.log
+
+Date and Time: Fri Jun 12 12:16:50 2026

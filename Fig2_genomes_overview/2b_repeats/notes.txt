@@ -1,0 +1,6 @@
+first used the script from RepeatExplorer (works at Galaxy, but it's kind of inconvenient) => downloaded => reverse engineered => mostly rewrote
+
+! they have two options: default scaling, which looks nice but is in fact wildly confusing, and proportional scaling to GS, which is hard to read
+actually, they multiply n reads * GS, which kind of makes sense in terms of "how many reads it should have been" but still...
+
+so, i decided to not scale and just calculate % reads, it makes sense (the larger GS, the more % reads in large repeat clusters)

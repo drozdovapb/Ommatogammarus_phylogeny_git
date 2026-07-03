@@ -1,0 +1,185 @@
+IQ-TREE 3.1.0 built Mar 12 2026
+
+Partition file name: trimmed/
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 78032
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 9 taxa with 4 partitions and 12551 total sites (0% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	9	4314	1174	1366	2339	2339	ATP6.fasta.aln.trim.aln+COX1.fasta.aln.trim.aln+COX2.fasta.aln.trim.aln+COX3.fasta.aln.trim.aln+ND3.fasta.aln.trim.aln+ND4L.fasta.aln.trim.aln
+   2	DNA	9	4065	1317	1426	1870	1870	ATP8.fasta.aln.trim.aln+ND1.fasta.aln.trim.aln+ND4.fasta.aln.trim.aln+ND5.fasta.aln.trim.aln
+   3	DNA	9	2607	922	972	1151	1151	CYTB.fasta.aln.trim.aln+ND2.fasta.aln.trim.aln+ND6.fasta.aln.trim.aln
+   4	DNA	9	1565	458	341	972	972	rrnL.fasta.aln.trim.aln+rrnS.fasta.aln.trim.aln
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: HKY+F+I+G4:ATP6.fasta.aln.trim.aln+COX1.fasta.aln.trim.aln+COX2.fasta.aln.trim.aln+COX3.fasta.aln.trim.aln+ND3.fasta.aln.trim.aln+ND4L.fasta.aln.trim.aln,GTR+F+I+G4:ATP8.fasta.aln.trim.aln+ND1.fasta.aln.trim.aln+ND4.fasta.aln.trim.aln+ND5.fasta.aln.trim.aln,GTR+F+I+G4:CYTB.fasta.aln.trim.aln+ND2.fasta.aln.trim.aln+ND6.fasta.aln.trim.aln,HKY+F+G4:rrnL.fasta.aln.trim.aln+rrnS.fasta.aln.trim.aln
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  HKY+F+I+G4       -22709.343   45432.687 - 2.72e-312   45432.713 - 5.87e-317   45477.274 -        0
+   2  GTR+F+I+G4       -23747.837   47517.673 - 2.72e-312   47517.738 - 5.87e-317   47587.085 -        0
+   3  GTR+F+I+G4       -15442.102   30906.203 - 2.72e-312   30906.305 - 5.87e-317   30970.729 -        0
+   4  HKY+F+G4          -6660.106   13332.213 - 2.72e-312   13332.267 - 5.87e-317   13364.347 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  HKY+F+I+G4     0.9005  HKY{7.378}+F{0.264379,0.211447,0.166989,0.357185}+I{0.448569}+G4{1.33524}
+   2  GTR+F+I+G4     1.2087  GTR{1.44159,8.59977,1.03597,4.52764,15.624}+F{0.274895,0.120111,0.233725,0.371269}+I{0.332336}+G4{1.15007}
+   3  GTR+F+I+G4     1.0879  GTR{1.53946,10.46,0.777783,2.38837,6.34772}+F{0.27733,0.213783,0.132933,0.375954}+I{0.301971}+G4{1.20078}
+   4  HKY+F+G4       0.5858  HKY{5.46037}+F{0.323339,0.105275,0.211301,0.360084}+G4{0.2545}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -68558.3407 (s.e. 454.6449)
+Unconstrained log-likelihood (without tree): -58253.5410
+Number of free parameters (#branches + #model parameters): 49
+Akaike information criterion (AIC) score: 137214.6814
+Corrected Akaike information criterion (AICc) score: 137215.0734
+Bayesian information criterion (BIC) score: 137579.1216
+
+Marginal log-likelihood of the tree: -69026.8899
+Marginal Akaike information criterion (mAIC) score: 138151.7798
+
+Total tree length (sum of branch lengths): 2.4479
+Sum of internal branch lengths: 0.5050 (20.6300% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Gla_MK354235' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / aBayes support / ultrafast bootstrap support (%)
+
++-----------------------------------------------------------Gla_MK354235
+|
++------------------------------------Avi_KX341962
+|
+|          +------------Ecy_KX341964
+|     +----| (100/1/99)
+|     |    |              +----EveE_20181
+|     |    +--------------| (100/1/100)
+|     |                   |  +-----EveS_PB2
+|     |                   +--| (98.8/1/97)
+|     |                      +-----EveW_KF690638
++-----| (97/1/88)
+      |          +-----Oal_D2
+      |       +--| (98/1/96)
+      |       |  +-------Ome_D2
+      +-------| (100/1/100)
+              +--------Ofl_D2
+
+Tree in newick format:
+
+(Gla_MK354235:0.7501534486,Avi_KX341962:0.4750492781,((Ecy_KX341964:0.1656976144,(EveE_20181:0.0700812132,(EveS_PB2:0.0871220827,EveW_KF690638:0.0839902181)98.8/1/97:0.0248532456)100/1/100:0.1911838819)100/1/99:0.0749558567,((Oal_D2:0.0873922833,Ome_D2:0.1045792237)98/1/96:0.0258555552,Ofl_D2:0.1187940414)100/1/100:0.1115471904)97/1/88:0.0765950487);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -68558.340754
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------------------------------------------------------Gla_MK354235
+|
++------------------------------------Avi_KX341962
+|
+|          +------------Ecy_KX341964
+|     +----| (99)
+|     |    |              +----EveE_20181
+|     |    +--------------| (100)
+|     |                   |  +-----EveS_PB2
+|     |                   +--| (97)
+|     |                      +-----EveW_KF690638
++-----| (88)
+      |          +-----Oal_D2
+      |       +--| (96)
+      |       |  +-------Ome_D2
+      +-------| (100)
+              +--------Ofl_D2
+
+
+Consensus tree in newick format: 
+
+(Gla_MK354235:0.7500787451,Avi_KX341962:0.4749723191,((Ecy_KX341964:0.1657089914,(EveE_20181:0.0700879029,(EveS_PB2:0.0871251842,EveW_KF690638:0.0839939902)97:0.0248509333)100:0.1911948482)99:0.0749447895,((Oal_D2:0.0873880765,Ome_D2:0.1045834128)96:0.0258562163,Ofl_D2:0.1187926993)100:0.1115531737)88:0.0767351823);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t 9spwGla_mafft_trimmed.treefile -p 9spwGla_mafft_trimmed.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Jun 17 16:57:46 2026
+Total CPU time used: 30.293277 seconds (0h:0m:30s)
+Total wall-clock time used: 30.89738892 seconds (0h:0m:30s)
+

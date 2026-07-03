@@ -1,0 +1,167 @@
+>Feature KF690638.1
+258	198	gene
+			gene	tRNA-Tyr
+258	198	tRNA
+			product	tRNA-Tyr
+311	256	gene
+			gene	tRNA-Gln
+311	256	tRNA
+			product	tRNA-Gln
+368	312	gene
+			gene	tRNA-Cys
+368	312	tRNA
+			product	tRNA-Cys
+406	466	gene
+			gene	tRNA-Ile
+406	466	tRNA
+			product	tRNA-Ile
+468	528	gene
+			gene	tRNA-Met
+468	528	tRNA
+			product	tRNA-Met
+532	>1509	gene
+			gene	ND2
+532	>1509	CDS
+			product	NADH dehydrogenase subunit 2
+			transl_table	5
+			note	3' Partial CDS
+1511	1570	gene
+			gene	tRNA-Trp
+1511	1570	tRNA
+			product	tRNA-Trp
+1571	1630	gene
+			gene	tRNA-Gly
+1571	1630	tRNA
+			product	tRNA-Gly
+1631	>3166	gene
+			gene	COX1
+1631	>3166	CDS
+			product	cytochrome c oxidase subunit I
+			transl_table	5
+			note	3' Partial CDS
+3168	3228	gene
+			gene	tRNA-Leu
+3168	3228	tRNA
+			product	tRNA-Leu
+3229	>3906	gene
+			gene	COX2
+3229	>3906	CDS
+			product	cytochrome c oxidase subunit II
+			transl_table	5
+			note	3' Partial CDS
+3911	3971	gene
+			gene	tRNA-Lys
+3911	3971	tRNA
+			product	tRNA-Lys
+3971	4031	gene
+			gene	tRNA-Asp
+3971	4031	tRNA
+			product	tRNA-Asp
+4032	4187	gene
+			gene	ATP8
+4032	4187	CDS
+			product	ATP synthase F0 subunit 8
+			transl_table	5
+4181	4849	gene
+			gene	ATP6
+4181	4849	CDS
+			product	ATP synthase F0 subunit 6
+			transl_table	5
+4849	5634	gene
+			gene	COX3
+4849	5634	CDS
+			product	cytochrome c oxidase subunit III
+			transl_table	5
+5637	5990	gene
+			gene	ND3
+5637	5990	CDS
+			product	NADH dehydrogenase subunit 3
+			transl_table	5
+5989	6047	gene
+			gene	tRNA-Ala
+5989	6047	tRNA
+			product	tRNA-Ala
+6046	6097	gene
+			gene	tRNA-Ser
+6046	6097	tRNA
+			product	tRNA-Ser
+6099	6159	gene
+			gene	tRNA-Asn
+6099	6159	tRNA
+			product	tRNA-Asn
+6157	6219	gene
+			gene	tRNA-Glu
+6157	6219	tRNA
+			product	tRNA-Glu
+6214	6273	gene
+			gene	tRNA-Arg
+6214	6273	tRNA
+			product	tRNA-Arg
+6331	6272	gene
+			gene	tRNA-Phe
+6331	6272	tRNA
+			product	tRNA-Phe
+8038	6332	gene
+			gene	ND5
+8038	6332	CDS
+			product	NADH dehydrogenase subunit 5
+			transl_table	5
+8106	8045	gene
+			gene	tRNA-His
+8106	8045	tRNA
+			product	tRNA-His
+9400	8102	gene
+			gene	ND4
+9400	8102	CDS
+			product	NADH dehydrogenase subunit 4
+			transl_table	5
+9702	9409	gene
+			gene	ND4L
+9702	9409	CDS
+			product	NADH dehydrogenase subunit 4L
+			transl_table	5
+9706	9765	gene
+			gene	tRNA-Thr
+9706	9765	tRNA
+			product	tRNA-Thr
+9826	9765	gene
+			gene	tRNA-Pro
+9826	9765	tRNA
+			product	tRNA-Pro
+9832	10329	gene
+			gene	ND6
+9832	10329	CDS
+			product	NADH dehydrogenase subunit 6
+			transl_table	5
+10329	11465	gene
+			gene	CYTB
+10329	11465	CDS
+			product	cytochrome b
+			transl_table	5
+11464	11523	gene
+			gene	tRNA-Ser2
+11464	11523	tRNA
+			product	tRNA-Ser2
+12696	11764	gene
+			gene	ND1
+12696	11764	CDS
+			product	NADH dehydrogenase subunit 1
+			transl_table	5
+12757	12697	gene
+			gene	tRNA-Leu2
+12757	12697	tRNA
+			product	tRNA-Leu2
+13724	12769	gene
+			gene	rrnL
+13724	12769	rRNA
+			gene	rrnL
+			product	16S ribosomal RNA
+13793	13740	gene
+			gene	tRNA-Val
+13793	13740	tRNA
+			product	tRNA-Val
+14321	13799	gene
+			gene	rrnS
+14321	13799	rRNA
+			gene	rrnS
+			product	12S ribosomal RNA

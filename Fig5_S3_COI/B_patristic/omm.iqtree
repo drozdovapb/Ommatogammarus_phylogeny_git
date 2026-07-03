@@ -1,0 +1,194 @@
+IQ-TREE 3.1.0 built Mar 12 2026
+
+Input file name: al_fl_am_me_BK_trim481.fa
+Type of analysis: tree reconstruction
+Random seed number: 944567
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 90 sequences with 481 nucleotide sites
+Number of constant sites: 364 (= 75.6757% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 364 (= 75.6757% of all sites)
+Number of parsimony informative sites: 110
+Number of distinct site patterns: 81
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+G4
+
+Rate parameter R:
+
+  A-C: 1.3447
+  A-G: 10.8905
+  A-T: 0.0001
+  C-G: 0.6076
+  C-T: 8.9221
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2324
+  pi(C) = 0.2319
+  pi(G) = 0.199
+  pi(T) = 0.3366
+
+Rate matrix Q:
+
+  A   -0.9063     0.114    0.7923  1.23e-05
+  C    0.1142    -1.256    0.0442     1.098
+  G    0.9253   0.05151      -1.1     0.123
+  T  8.496e-06    0.7564   0.07275   -0.8291
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.333
+Gamma shape alpha: 0.4506
+
+ Category  Relative_rate  Proportion
+  0         0              0.333
+  1         0.03694        0.1668
+  2         0.3275         0.1668
+  3         1.17           0.1668
+  4         4.462          0.1668
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1475.4529 (s.e. 64.6204)
+Unconstrained log-likelihood (without tree): -1244.5260
+Number of free parameters (#branches + #model parameters): 89
+Akaike information criterion (AIC) score: 3128.9058
+Corrected Akaike information criterion (AICc) score: 3169.8776
+Bayesian information criterion (BIC) score: 3500.5579
+
+Total tree length (sum of branch lengths): 0.5198
+Sum of internal branch lengths: 0.4567 (87.8455% of tree length)
+
+WARNING: 26 near-zero internal branches (<0.0021) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_' is drawn at root
+
++**PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_
+|
++**PV474291_Ommatogammarus_albinus_isolate_BK_15_Oa_650m_
+|
+|  +--PV474293_Ommatogammarus_albinus_isolate_BK_22_Oa_1000m_
++**|
+   |                                                               +**PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_
+   |                                                            +**|
+   |                                                            |  +**PV474348_Ommatogammarus_flavus_isolate_BK_11_Of_250m_
+   |                                                         +**|
+   |                                                         |  |        +**PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_
+   |                                                         |  |     +--|
+   |                                                         |  |     |  +**PV474351_Ommatogammarus_flavus_isolate_BK_17_Of_1000m_
+   |                                                         |  |  +**|
+   |                                                         |  |  |  +**PV474363_Ommatogammarus_flavus_isolate_BK_31_Of_650m_
+   |                                                         |  +**|
+   |                                                         |     +--PV474352_Ommatogammarus_flavus_isolate_BK_18_Of_650m_
+   |                                                      +**|
+   |                                                      |  +--PV474362_Ommatogammarus_flavus_isolate_BK_2_Of_650m_
+   |                           +--------------------------|
+   |                           |                          +--PV474369_Ommatogammarus_flavus_isolate_BK_42_31_Of_650m_
+   +---------------------------|
+                               |                                            +--PZ495199_Pretiositus_amethystinus_isolate_Ocsp_21_1_
+                               |                                         +**|
+                               |                                         |  +--PZ495208_Pretiositus_amethystinus_isolate_Ocsp_21_10_
+                               |                                      +**|
+                               |                                      |  |     +--PZ495210_Pretiositus_amethystinus_isolate_Ocsp_21_12_
+                               |                                      |  |  +--|
+                               |                                      |  |  |  +**PZ495220_Pretiositus_amethystinus_isolate_Ocsp_23_1_
+                               |                                      |  +**|
+                               |                                      |     +--PZ495232_Pretiositus_amethystinus_isolate_Ocsp_23_14_
+                               |                                   +**|
+                               |                                   |  |     +**PZ495200_Pretiositus_amethystinus_isolate_Ocsp_21_2_
+                               |                                   |  |  +--|
+                               |                                   |  |  |  |  +--PZ495201_Pretiositus_amethystinus_isolate_Ocsp_21_3_
+                               |                                   |  |  |  +--|
+                               |                                   |  |  |     |  +**PZ495204_Pretiositus_amethystinus_isolate_Ocsp_21_6_
+                               |                                   |  |  |     +**|
+                               |                                   |  |  |        +**PZ495214_Pretiositus_amethystinus_isolate_Ocsp_21_16_
+                               |                                   |  +**|
+                               |                                   |     |           +**PZ495202_Pretiositus_amethystinus_isolate_Ocsp_21_4_
+                               |                                   |     |        +**|
+                               |                                   |     |        |  +**PZ495207_Pretiositus_amethystinus_isolate_Ocsp_21_9_
+                               |                                   |     |     +--|
+                               |                                   |     |     |  +--PZ495215_Pretiositus_amethystinus_isolate_Ocsp_21_17_
+                               |                                   |     |  +**|
+                               |                                   |     |  |  |     +**PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_
+                               |                                   |     |  |  |  +**|
+                               |                                   |     |  |  |  |  +**PZ495205_Pretiositus_amethystinus_isolate_Ocsp_21_7_
+                               |                                   |     |  |  +--|
+                               |                                   |     |  |     +--PZ495230_Pretiositus_amethystinus_isolate_Ocsp_23_12_
+                               |                                   |     +**|
+                               |                                   |        +--PZ495226_Pretiositus_amethystinus_isolate_Ocsp_23_7_
+                               |                                +**|
+                               |                                |  +**PZ495231_Pretiositus_amethystinus_isolate_Ocsp_23_13_
+                               |                             +**|
+                               |                             |  +**PZ495217_Pretiositus_amethystinus_isolate_Ocsp_21_19_
+                               |                          +--|
+                               |                          |  |  +--PZ495206_Pretiositus_amethystinus_isolate_Ocsp_21_8_
+                               |                          |  +**|
+                               |                          |     +--PZ495227_Pretiositus_amethystinus_isolate_Ocsp_23_9_
+                               |      +-------------------|
+                               |      |                   +**PZ495225_Pretiositus_amethystinus_isolate_Ocsp_23_6_
+                               +------|
+                                      |                         +**PZ495218_Pretiositus_melanophthalmus_isolate_Ome_21_35_
+                                      |                      +**|
+                                      |                      |  +**PZ495239_Pretiositus_melanophthalmus_isolate_Ome_25_8_
+                                      |                   +**|
+                                      |                   |  |  +**PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_
+                                      |                   |  +**|
+                                      |                   |     +**PZ495222_Pretiositus_melanophthalmus_isolate_Ome_23_3_
+                                      |                +**|
+                                      |                |  +**PZ495229_Pretiositus_melanophthalmus_isolate_Ome_23_11_
+                                      |             +**|
+                                      |             |  |     +**PZ495236_Pretiositus_melanophthalmus_isolate_Ome_25_4_
+                                      |             |  |  +**|
+                                      |             |  |  |  +**PZ495237_Pretiositus_melanophthalmus_isolate_Ome_25_5_
+                                      |             |  +**|
+                                      |             |     +**PZ495240_Pretiositus_melanophthalmus_isolate_Ome_25_9_
+                                      +-------------|
+                                                    +**PZ495243_Pretiositus_melanophthalmus_isolate_Ohy_25_
+
+Tree in newick format:
+
+(PV474290_Ommatogammarus_albinus_isolate_BK_14_Oa_1000m_:0.0000010000,PV474291_Ommatogammarus_albinus_isolate_BK_15_Oa_650m_:0.0000010000,(PV474293_Ommatogammarus_albinus_isolate_BK_22_Oa_1000m_:0.0021841245,(((((PV474347_Ommatogammarus_flavus_isolate_BK_10_Of_650m_:0.0000010000,PV474348_Ommatogammarus_flavus_isolate_BK_11_Of_250m_:0.0000010000):0.0000010000,(((PV474350_Ommatogammarus_flavus_isolate_BK_13_Of_25m_:0.0000010000,PV474351_Ommatogammarus_flavus_isolate_BK_17_Of_1000m_:0.0000010000):0.0021198623,PV474363_Ommatogammarus_flavus_isolate_BK_31_Of_650m_:0.0000010000):0.0000020074,PV474352_Ommatogammarus_flavus_isolate_BK_18_Of_650m_:0.0021233316):0.0000010000):0.0000020659,PV474362_Ommatogammarus_flavus_isolate_BK_2_Of_650m_:0.0021233443):0.0000026421,PV474369_Ommatogammarus_flavus_isolate_BK_42_31_Of_650m_:0.0021199270):0.1189803464,((((((((PZ495199_Pretiositus_amethystinus_isolate_Ocsp_21_1_:0.0020876565,PZ495208_Pretiositus_amethystinus_isolate_Ocsp_21_10_:0.0042173384):0.0000010000,((PZ495210_Pretiositus_amethystinus_isolate_Ocsp_21_12_:0.0020837728,PZ495220_Pretiositus_amethystinus_isolate_Ocsp_23_1_:0.0000010000):0.0042031828,PZ495232_Pretiositus_amethystinus_isolate_Ocsp_23_14_:0.0106822853):0.0000020039):0.0000010000,((PZ495200_Pretiositus_amethystinus_isolate_Ocsp_21_2_:0.0000025779,(PZ495201_Pretiositus_amethystinus_isolate_Ocsp_21_3_:0.0042113362,(PZ495204_Pretiositus_amethystinus_isolate_Ocsp_21_6_:0.0000010000,PZ495214_Pretiositus_amethystinus_isolate_Ocsp_21_16_:0.0000010000):0.0000022724):0.0020936307):0.0020942970,((((PZ495202_Pretiositus_amethystinus_isolate_Ocsp_21_4_:0.0000010000,PZ495207_Pretiositus_amethystinus_isolate_Ocsp_21_9_:0.0000010000):0.0000020634,PZ495215_Pretiositus_amethystinus_isolate_Ocsp_21_17_:0.0041850683):0.0087136797,((PZ495203_Pretiositus_amethystinus_isolate_Ocsp_21_5_:0.0000010000,PZ495205_Pretiositus_amethystinus_isolate_Ocsp_21_7_:0.0000010000):0.0000025221,PZ495230_Pretiositus_amethystinus_isolate_Ocsp_23_12_:0.0020983215):0.0065304179):0.0019963511,PZ495226_Pretiositus_amethystinus_isolate_Ocsp_23_7_:0.0085675499):0.0000020980):0.0000010000):0.0000010000,PZ495231_Pretiositus_amethystinus_isolate_Ocsp_23_13_:0.0000010000):0.0000010000,PZ495217_Pretiositus_amethystinus_isolate_Ocsp_21_19_:0.0000010000):0.0000010000,(PZ495206_Pretiositus_amethystinus_isolate_Ocsp_21_8_:0.0020959510,PZ495227_Pretiositus_amethystinus_isolate_Ocsp_23_9_:0.0020886522):0.0000010000):0.0020930882,PZ495225_Pretiositus_amethystinus_isolate_Ocsp_23_6_:0.0000021248):0.0890010584,(((((PZ495218_Pretiositus_melanophthalmus_isolate_Ome_21_35_:0.0020314840,PZ495239_Pretiositus_melanophthalmus_isolate_Ome_25_8_:0.0020293614):0.0000010000,(PZ495219_Pretiositus_melanophthalmus_isolate_Ome_21_36_:0.0000010000,PZ495222_Pretiositus_melanophthalmus_isolate_Ome_23_3_:0.0000010000):0.0000028618):0.0000010000,PZ495229_Pretiositus_melanophthalmus_isolate_Ome_23_11_:0.0020254510):0.0020419481,((PZ495236_Pretiositus_melanophthalmus_isolate_Ome_25_4_:0.0000021801,PZ495237_Pretiositus_melanophthalmus_isolate_Ome_25_5_:0.0000010000):0.0020299834,PZ495240_Pretiositus_melanophthalmus_isolate_Ome_25_9_:0.0000020735):0.0020381906):0.0020349376,PZ495243_Pretiositus_melanophthalmus_isolate_Ohy_25_:0.0000020079):0.0615604357):0.0323654873):0.1229235755):0.0000010000);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t omm.treefile -m "GTR{1.34466,10.8905,0.0001,0.607555,8.92209}+F{0.232443,0.231926,0.199026,0.336605}+I{0.33298}+G4{0.450603}" --length 481
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s al_fl_am_me_BK_trim481.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s al_fl_am_me_BK_trim481.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jun 12 12:16:50 2026
+Total CPU time used: 12.79 seconds (0h:0m:12s)
+Total wall-clock time used: 13.7125 seconds (0h:0m:13s)
+

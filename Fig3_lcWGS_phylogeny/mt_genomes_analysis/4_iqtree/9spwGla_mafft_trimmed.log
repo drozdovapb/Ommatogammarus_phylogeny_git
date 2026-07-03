@@ -1,0 +1,531 @@
+IQ-TREE version 3.1.0 for Linux x86 64-bit built Mar 12 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    drozdovapb-HP-17-by1xxx (AVX2, FMA3, 11 GB RAM)
+Command: /home/drozdovapb/lib/iqtree-3.1.0-Linux/bin/iqtree3_intel -p trimmed/ -m TEST+MERGE -mset JC,HKY,TN93,GTR -bb 1000 -alrt 1000 -abayes -pre 9spwGla_mafft_trimmed
+Seed:    78032 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Jun 17 16:57:15 2026
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading 15 alignment files in directory trimmed/
+Reading alignment file trimmed/ATP6.fasta.aln.trim.aln ... Fasta format detected
+Reading fasta file: done in 0.000428965 secs using 65.97% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00238534 secs using 99.86% CPU
+Alignment has 9 sequences with 669 columns, 264 distinct patterns
+231 parsimony-informative, 100 singleton sites, 338 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 5.206e-05 secs using 92.2% CPU
+   1  Gla_MK354235     0.00%    passed     38.27%
+   2  Avi_KX341962     0.00%    failed      0.54%
+   3  Ecy_KX341964     0.00%    passed     43.53%
+   4  EveE_20181       0.00%    passed     74.90%
+   5  EveS_PB2         0.00%    passed     50.35%
+   6  EveW_KF690638    0.00%    passed     41.96%
+   7  Oal_D2           0.00%    passed     41.35%
+   8  Ofl_D2           0.00%    passed     92.01%
+   9  Ome_D2           0.00%    passed     31.65%
+****  TOTAL            0.00%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file trimmed/ATP8.fasta.aln.trim.aln ... Fasta format detected
+Reading fasta file: done in 0.000137285 secs
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000671044 secs
+Alignment has 9 sequences with 156 columns, 98 distinct patterns
+66 parsimony-informative, 36 singleton sites, 54 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 6.3431e-05 secs
+   1  Gla_MK354235     0.00%    passed     65.99%
+   2  Avi_KX341962     0.00%    failed      0.80%
+   3  Ecy_KX341964     0.00%    passed     82.44%
+   4  EveE_20181       0.00%    passed     27.28%
+   5  EveS_PB2         0.00%    passed     33.33%
+   6  EveW_KF690638    0.00%    passed     26.36%
+   7  Oal_D2           0.00%    passed     50.88%
+   8  Ofl_D2           0.00%    passed     98.51%
+   9  Ome_D2           0.00%    passed     44.18%
+****  TOTAL            0.00%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file trimmed/COX1.fasta.aln.trim.aln ... Fasta format detected
+Reading fasta file: done in 0.00084162 secs using 2.495% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00377488 secs using 99.9% CPU
+Alignment has 9 sequences with 1533 columns, 428 distinct patterns
+421 parsimony-informative, 191 singleton sites, 921 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 7.9978e-05 secs using 95.03% CPU
+   1  Gla_MK354235     0.00%    passed     13.60%
+   2  Avi_KX341962     0.00%    failed      0.00%
+   3  Ecy_KX341964     0.00%    passed      8.20%
+   4  EveE_20181       0.00%    passed      7.32%
+   5  EveS_PB2         0.00%    failed      0.99%
+   6  EveW_KF690638    0.00%    passed     12.73%
+   7  Oal_D2           0.00%    passed     98.39%
+   8  Ofl_D2           0.00%    passed     88.68%
+   9  Ome_D2           0.00%    passed      5.28%
+****  TOTAL            0.00%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file trimmed/COX2.fasta.aln.trim.aln ... Fasta format detected
+Reading fasta file: done in 0.000333797 secs
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00123897 secs
+Alignment has 9 sequences with 678 columns, 253 distinct patterns
+216 parsimony-informative, 98 singleton sites, 364 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.0238e-05 secs
+   1  Gla_MK354235     0.44%    passed     18.79%
+   2  Avi_KX341962     0.00%    failed      0.08%
+   3  Ecy_KX341964     0.00%    passed     19.72%
+   4  EveE_20181       0.00%    passed     63.31%
+   5  EveS_PB2         0.00%    failed      2.60%
+   6  EveW_KF690638    0.00%    passed     20.19%
+   7  Oal_D2           0.00%    passed     65.56%
+   8  Ofl_D2           0.00%    passed     56.98%
+   9  Ome_D2           0.00%    passed      9.36%
+****  TOTAL            0.05%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file trimmed/COX3.fasta.aln.trim.aln ... Fasta format detected
+Reading fasta file: done in 0.000208483 secs
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00127801 secs using 99.84% CPU
+Alignment has 9 sequences with 786 columns, 316 distinct patterns
+265 parsimony-informative, 112 singleton sites, 408 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.8886e-05 secs using 90.01% CPU
+   1  Gla_MK354235     0.00%    passed     77.37%
+   2  Avi_KX341962     0.00%    failed      1.75%
+   3  Ecy_KX341964     0.00%    passed     45.23%
+   4  EveE_20181       0.00%    passed     58.58%
+   5  EveS_PB2         0.00%    passed     39.35%
+   6  EveW_KF690638    0.00%    passed     96.15%
+   7  Oal_D2           0.00%    passed     99.46%
+   8  Ofl_D2           0.00%    passed     62.67%
+   9  Ome_D2           0.00%    passed      5.54%
+****  TOTAL            0.00%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file trimmed/CYTB.fasta.aln.trim.aln ... Fasta format detected
+Reading fasta file: done in 0.000245856 secs using 99.65% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00161848 secs using 82.48% CPU
+Alignment has 9 sequences with 1134 columns, 407 distinct patterns
+365 parsimony-informative, 181 singleton sites, 588 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.1668e-05 secs using 92.3% CPU
+   1  Gla_MK354235     0.00%    passed     61.54%
+   2  Avi_KX341962     0.00%    failed      0.00%
+   3  Ecy_KX341964     0.00%    passed     39.17%
+   4  EveE_20181       0.00%    failed      0.56%
+   5  EveS_PB2         0.00%    failed      3.07%
+   6  EveW_KF690638    0.00%    failed      0.41%
+   7  Oal_D2           0.00%    passed     78.55%
+   8  Ofl_D2           0.00%    passed     71.16%
+   9  Ome_D2           0.00%    failed      0.03%
+****  TOTAL            0.00%  5 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file trimmed/ND1.fasta.aln.trim.aln ... Fasta format detected
+Reading fasta file: done in 0.000333766 secs using 99.47% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00115575 secs using 99.94% CPU
+Alignment has 9 sequences with 897 columns, 326 distinct patterns
+280 parsimony-informative, 160 singleton sites, 456 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.6852e-05 secs using 94.94% CPU
+   1  Gla_MK354235     0.00%    passed     10.17%
+   2  Avi_KX341962     0.00%    failed      0.20%
+   3  Ecy_KX341964     0.00%    failed      3.10%
+   4  EveE_20181       0.00%    passed     35.39%
+   5  EveS_PB2         0.00%    passed     19.16%
+   6  EveW_KF690638    0.00%    passed     11.59%
+   7  Oal_D2           0.00%    passed     87.24%
+   8  Ofl_D2           0.00%    passed     92.41%
+   9  Ome_D2           0.00%    passed      6.89%
+****  TOTAL            0.00%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file trimmed/ND2.fasta.aln.trim.aln ... Fasta format detected
+Reading fasta file: done in 0.000333593 secs using 99.52% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00127611 secs using 99.91% CPU
+Alignment has 9 sequences with 975 columns, 435 distinct patterns
+382 parsimony-informative, 202 singleton sites, 391 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.0758e-05 secs using 96.35% CPU
+   1  Gla_MK354235     0.00%    passed     83.25%
+   2  Avi_KX341962     0.00%    failed      0.00%
+   3  Ecy_KX341964     0.00%    passed     91.58%
+   4  EveE_20181       0.00%    failed      2.09%
+   5  EveS_PB2         0.00%    passed      9.33%
+   6  EveW_KF690638    0.00%    passed     14.96%
+   7  Oal_D2           0.00%    passed     96.62%
+   8  Ofl_D2           0.00%    passed     74.14%
+   9  Ome_D2           0.00%    failed      1.29%
+****  TOTAL            0.00%  3 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file trimmed/ND3.fasta.aln.trim.aln ... Fasta format detected
+Reading fasta file: done in 0.000121624 secs using 99.49% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000407298 secs using 99.68% CPU
+Alignment has 9 sequences with 354 columns, 152 distinct patterns
+125 parsimony-informative, 55 singleton sites, 174 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.1709e-05 secs using 85.4% CPU
+   1  Gla_MK354235     0.00%    passed     98.62%
+   2  Avi_KX341962     0.00%    failed      1.64%
+   3  Ecy_KX341964     0.00%    passed     87.94%
+   4  EveE_20181       0.00%    passed     24.75%
+   5  EveS_PB2         0.00%    passed     21.80%
+   6  EveW_KF690638    0.00%    passed     32.77%
+   7  Oal_D2           0.00%    passed     71.95%
+   8  Ofl_D2           0.00%    passed     71.12%
+   9  Ome_D2           0.00%    passed     38.76%
+****  TOTAL            0.00%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file trimmed/ND4.fasta.aln.trim.aln ... Fasta format detected
+Reading fasta file: done in 0.000263716 secs using 99.73% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0013229 secs using 99.93% CPU
+Alignment has 9 sequences with 1305 columns, 503 distinct patterns
+450 parsimony-informative, 239 singleton sites, 616 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.8257e-05 secs using 93.11% CPU
+   1  Gla_MK354235     0.46%    passed     59.57%
+   2  Avi_KX341962     0.00%    failed      0.00%
+   3  Ecy_KX341964     0.00%    passed     45.65%
+   4  EveE_20181       0.00%    failed      3.34%
+   5  EveS_PB2         0.00%    passed     25.60%
+   6  EveW_KF690638    0.46%    failed      0.05%
+   7  Oal_D2           0.69%    passed     96.69%
+   8  Ofl_D2           0.23%    passed     84.97%
+   9  Ome_D2           0.69%    failed      1.48%
+****  TOTAL            0.28%  4 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file trimmed/ND4L.fasta.aln.trim.aln ... Fasta format detected
+Reading fasta file: done in 8.9543e-05 secs using 98.28% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000355992 secs using 99.72% CPU
+Alignment has 9 sequences with 294 columns, 144 distinct patterns
+108 parsimony-informative, 53 singleton sites, 133 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.1312e-05 secs using 88.4% CPU
+   1  Gla_MK354235     0.00%    passed     81.66%
+   2  Avi_KX341962     0.00%    passed     55.99%
+   3  Ecy_KX341964     0.00%    passed     99.27%
+   4  EveE_20181       0.00%    passed     74.14%
+   5  EveS_PB2         0.00%    passed     92.68%
+   6  EveW_KF690638    0.00%    passed     80.09%
+   7  Oal_D2           0.00%    passed     94.98%
+   8  Ofl_D2           0.00%    passed     98.19%
+   9  Ome_D2           0.00%    passed     62.10%
+****  TOTAL            0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file trimmed/ND5.fasta.aln.trim.aln ... Fasta format detected
+Reading fasta file: done in 0.000436328 secs using 99.7% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00160893 secs using 99.94% CPU
+Alignment has 9 sequences with 1707 columns, 668 distinct patterns
+630 parsimony-informative, 334 singleton sites, 743 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.9414e-05 secs using 92.72% CPU
+   1  Gla_MK354235     1.23%    passed      6.36%
+   2  Avi_KX341962     0.00%    failed      0.00%
+   3  Ecy_KX341964     0.00%    failed      0.20%
+   4  EveE_20181       0.00%    passed     16.42%
+   5  EveS_PB2         0.00%    failed      1.18%
+   6  EveW_KF690638    0.00%    failed      0.05%
+   7  Oal_D2           1.58%    passed     93.16%
+   8  Ofl_D2           0.00%    passed     88.56%
+   9  Ome_D2           1.23%    failed      0.01%
+****  TOTAL            0.45%  5 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file trimmed/ND6.fasta.aln.trim.aln ... Fasta format detected
+Reading fasta file: done in 0.000121527 secs using 99.57% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000530929 secs using 99.83% CPU
+Alignment has 9 sequences with 498 columns, 261 distinct patterns
+225 parsimony-informative, 101 singleton sites, 172 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.1682e-05 secs using 94.16% CPU
+   1  Gla_MK354235     0.00%    passed     34.36%
+   2  Avi_KX341962     0.00%    failed      0.16%
+   3  Ecy_KX341964     0.00%    passed     16.14%
+   4  EveE_20181       0.00%    passed     64.98%
+   5  EveS_PB2         0.00%    passed     39.40%
+   6  EveW_KF690638    0.00%    passed      5.97%
+   7  Oal_D2           0.00%    passed     86.33%
+   8  Ofl_D2           0.00%    passed     51.56%
+   9  Ome_D2           0.00%    passed     16.59%
+****  TOTAL            0.00%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file trimmed/rrnL.fasta.aln.trim.aln ... Fasta format detected
+Reading fasta file: done in 0.000218783 secs using 99.19% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000800192 secs using 99.85% CPU
+Alignment has 9 sequences with 948 columns, 282 distinct patterns
+199 parsimony-informative, 148 singleton sites, 601 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.0453e-05 secs using 95.67% CPU
+   1  Gla_MK354235    35.34%    passed     53.54%
+   2  Avi_KX341962     0.42%    failed      0.16%
+   3  Ecy_KX341964     2.11%    passed     10.47%
+   4  EveE_20181       0.00%    passed     29.17%
+   5  EveS_PB2         0.21%    passed     62.09%
+   6  EveW_KF690638    0.11%    passed     83.15%
+   7  Oal_D2           0.00%    passed     74.36%
+   8  Ofl_D2           0.00%    passed     99.02%
+   9  Ome_D2           0.00%    passed     54.07%
+****  TOTAL            4.24%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file trimmed/rrnS.fasta.aln.trim.aln ... Fasta format detected
+Reading fasta file: done in 0.000131323 secs using 98.99% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000517738 secs using 99.86% CPU
+Alignment has 9 sequences with 617 columns, 221 distinct patterns
+142 parsimony-informative, 104 singleton sites, 371 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.0695e-05 secs using 93.5% CPU
+   1  Gla_MK354235    34.36%    passed     14.76%
+   2  Avi_KX341962     0.16%    passed     15.80%
+   3  Ecy_KX341964     0.81%    passed     26.02%
+   4  EveE_20181       0.32%    passed     37.05%
+   5  EveS_PB2         0.65%    passed     67.65%
+   6  EveW_KF690638   15.40%    passed     71.27%
+   7  Oal_D2           0.32%    passed     97.06%
+   8  Ofl_D2           0.16%    passed     94.56%
+   9  Ome_D2          15.07%    passed     15.93%
+****  TOTAL            7.47%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		9	669	231	338		ATP6.fasta.aln.trim.aln
+2		9	156	66	54		ATP8.fasta.aln.trim.aln
+3		9	1533	421	921		COX1.fasta.aln.trim.aln
+4		9	678	216	364		COX2.fasta.aln.trim.aln
+5		9	786	265	409		COX3.fasta.aln.trim.aln
+6		9	1134	365	588		CYTB.fasta.aln.trim.aln
+7		9	897	280	457		ND1.fasta.aln.trim.aln
+8		9	975	382	391		ND2.fasta.aln.trim.aln
+9		9	354	125	174		ND3.fasta.aln.trim.aln
+10		9	1305	450	616		ND4.fasta.aln.trim.aln
+11		9	294	108	133		ND4L.fasta.aln.trim.aln
+12		9	1707	630	743		ND5.fasta.aln.trim.aln
+13		9	498	225	172		ND6.fasta.aln.trim.aln
+14		9	948	199	601		rrnL.fasta.aln.trim.aln
+15		9	617	142	371		rrnS.fasta.aln.trim.aln
+Degree of missing data: 0.000
+
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Initial log-likelihood: -72429.337
+Current log-likelihood at step 1: -68829.431
+Current log-likelihood at step 2: -68452.719
+Current log-likelihood at step 3: -68412.375
+Current log-likelihood at step 4: -68406.231
+Current log-likelihood at step 5: -68402.694
+Parameters optimization took 4 rounds (0.672 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+Initial log-likelihood: -68402.694
+Current log-likelihood at step 1: -68399.772
+Current log-likelihood at step 2: -68396.881
+Current log-likelihood at step 3: -68393.955
+Current log-likelihood at step 4: -68390.967
+Current log-likelihood at step 5: -68387.961
+Current log-likelihood at step 6: -68384.915
+Current log-likelihood at step 7: -68301.398
+Current log-likelihood at step 8: -68299.744
+Current log-likelihood at step 9: -68298.043
+Current log-likelihood at step 10: -68296.310
+Current log-likelihood at step 11: -68294.512
+Current log-likelihood at step 12: -68292.639
+Current log-likelihood at step 13: -68290.674
+Current log-likelihood at step 14: -68288.678
+Current log-likelihood at step 15: -68286.697
+Current log-likelihood at step 16: -68284.771
+Current log-likelihood at step 17: -68283.002
+Current log-likelihood at step 18: -68281.473
+Current log-likelihood at step 19: -68280.228
+Current log-likelihood at step 20: -68279.257
+Partition-specific rates:  0.997 1.211 0.904 0.897 0.941 1.082 1.143 1.044 0.838 1.120 1.002 1.271 1.106 0.545 0.650
+Parameters optimization took 19 rounds (1.084 sec)
+
+Time for fast ML tree search: 1.795 seconds
+
+NOTE: ModelFinder requires 3 MB RAM!
+
+PartitionFinder's parameters:
+Fast Relaxed Algorithm
+Percentage: 10.000
+Maximum pairs: 150
+
+Selecting individual models for 15 charsets using BIC...
+ No. Model        Score       TreeLen     Charset
+   1 GTR+F+I+G4   7439.770    2.491       ATP6.fasta.aln.trim.aln
+   2 GTR+F+I+G4   2137.561    3.045       ATP8.fasta.aln.trim.aln
+   3 GTR+F+I+G4   14769.972   2.304       COX1.fasta.aln.trim.aln
+   4 GTR+F+I+G4   7182.260    2.273       COX2.fasta.aln.trim.aln
+   5 GTR+F+I+G4   8796.402    2.352       COX3.fasta.aln.trim.aln
+   6 GTR+F+I+G4   12479.449   2.745       CYTB.fasta.aln.trim.aln
+   7 GTR+F+I+G4   9740.449    2.880       ND1.fasta.aln.trim.aln
+   8 GTR+F+I+G4   11934.237   2.610       ND2.fasta.aln.trim.aln
+   9 GTR+F+I+G4   3971.167    2.124       ND3.fasta.aln.trim.aln
+  10 GTR+F+I+G4   15100.015   2.835       ND4.fasta.aln.trim.aln	0h:0m:0s (0h:0m:1s left)
+  11 GTR+F+I+G4   3418.912    2.409       ND4L.fasta.aln.trim.aln	0h:0m:0s (0h:0m:1s left)
+  12 GTR+F+I+G4   20660.197   3.221       ND5.fasta.aln.trim.aln	0h:0m:0s (0h:0m:1s left)
+  13 GTR+F+I+G4   6592.664    2.807       ND6.fasta.aln.trim.aln	0h:0m:0s (0h:0m:1s left)
+  14 GTR+F+I+G4   7926.803    1.387       rrnL.fasta.aln.trim.aln	0h:0m:0s (0h:0m:1s left)
+  15 GTR+F+I+G4   5487.133    1.652       rrnS.fasta.aln.trim.aln	0h:0m:0s (0h:0m:1s left)
+Full partition model BIC score: 138243.355 (LnL: -68277.016  df:179)
+Merging models to increase model fit (about 39 total partition schemes)...
+  16 GTR+F+I+G4   138343.431  2.699       ND4.fasta.aln.trim.aln+ND6.fasta.aln.trim.aln	0h:0m:0s (0h:0m:1s left)
+  17 GTR+F+I+G4   138167.541  2.242       COX1.fasta.aln.trim.aln+COX2.fasta.aln.trim.aln	0h:0m:1s (0h:0m:1s left)
+  18 GTR+F+I+G4   138151.339  2.889       ND1.fasta.aln.trim.aln+ND4.fasta.aln.trim.aln	0h:0m:1s (0h:0m:1s left)
+  19 GTR+F+I+G4   138185.772  2.275       COX1.fasta.aln.trim.aln+COX3.fasta.aln.trim.aln	0h:0m:1s (0h:0m:1s left)
+  20 GTR+F+I+G4   138233.806  2.317       COX3.fasta.aln.trim.aln+ND4L.fasta.aln.trim.aln	0h:0m:1s (0h:0m:1s left)
+  21 GTR+F+I+G4   138207.206  2.760       CYTB.fasta.aln.trim.aln+ND6.fasta.aln.trim.aln	0h:0m:1s (0h:0m:1s left)
+  22 GTR+F+I+G4   138354.779  2.685       ND1.fasta.aln.trim.aln+ND6.fasta.aln.trim.aln	0h:0m:1s (0h:0m:1s left)
+  23 GTR+F+I+G4   138164.421  2.286       COX2.fasta.aln.trim.aln+COX3.fasta.aln.trim.aln	0h:0m:1s (0h:0m:1s left)
+  24 GTR+F+I+G4   138237.646  2.390       ATP6.fasta.aln.trim.aln+ND4L.fasta.aln.trim.aln	0h:0m:2s (0h:0m:1s left)
+  25 GTR+F+I+G4   138378.619  2.707       CYTB.fasta.aln.trim.aln+ND4.fasta.aln.trim.aln	0h:0m:2s (0h:0m:1s left)
+  26 GTR+F+I+G4   138231.085  2.278       COX1.fasta.aln.trim.aln+ND4L.fasta.aln.trim.aln	0h:0m:2s (0h:0m:1s left)
+4 compatible better partition pairs found
+Merging ND1.fasta.aln.trim.aln+ND4.fasta.aln.trim.aln with BIC score: 138151.339 (LnL: -68282.915  df: 168)
+Merging COX2.fasta.aln.trim.aln+COX3.fasta.aln.trim.aln with BIC score: 138072.405 (LnL: -68295.354  df: 157)
+Merging CYTB.fasta.aln.trim.aln+ND6.fasta.aln.trim.aln with BIC score: 138036.256 (LnL: -68329.186  df: 146)
+Merging COX1.fasta.aln.trim.aln+ND4L.fasta.aln.trim.aln with BIC score: 138023.986 (LnL: -68374.958  df: 135)
+  27 GTR+F+I+G4   137974.673  2.244       COX1.fasta.aln.trim.aln+COX2.fasta.aln.trim.aln+COX3.fasta.aln.trim.aln+ND4L.fasta.aln.trim.aln	0h:0m:2s (0h:0m:1s left)
+  28 GTR+F+I+G4   137952.836  2.567       ATP6.fasta.aln.trim.aln+ND2.fasta.aln.trim.aln	0h:0m:2s (0h:0m:0s left)
+  29 GTR+F+I+G4   138309.300  2.689       CYTB.fasta.aln.trim.aln+ND1.fasta.aln.trim.aln+ND4.fasta.aln.trim.aln+ND6.fasta.aln.trim.aln	0h:0m:2s (0h:0m:0s left)
+  30 GTR+F+I+G4   137951.752  2.699       CYTB.fasta.aln.trim.aln+ND2.fasta.aln.trim.aln+ND6.fasta.aln.trim.aln	0h:0m:2s (0h:0m:0s left)
+  31 GTR+F+I+G4   137961.443  2.176       COX1.fasta.aln.trim.aln+ND3.fasta.aln.trim.aln+ND4L.fasta.aln.trim.aln	0h:0m:2s (0h:0m:0s left)
+  32 GTR+F+I+G4   138040.058  2.841       ATP8.fasta.aln.trim.aln+ND1.fasta.aln.trim.aln+ND4.fasta.aln.trim.aln	0h:0m:3s (0h:0m:0s left)
+  33 GTR+F+I+G4   138013.535  3.131       ATP8.fasta.aln.trim.aln+ND5.fasta.aln.trim.aln	0h:0m:3s (0h:0m:0s left)
+3 compatible better partition pairs found
+Merging CYTB.fasta.aln.trim.aln+ND2.fasta.aln.trim.aln+ND6.fasta.aln.trim.aln with BIC score: 137951.752 (LnL: -68390.748  df: 124)
+Merging COX1.fasta.aln.trim.aln+ND3.fasta.aln.trim.aln+ND4L.fasta.aln.trim.aln with BIC score: 137889.210 (LnL: -68411.383  df: 113)
+Merging ATP8.fasta.aln.trim.aln+ND5.fasta.aln.trim.aln with BIC score: 137878.760 (LnL: -68458.065  df: 102)
+  34 GTR+F+I+G4   137813.298  2.217       COX1.fasta.aln.trim.aln+COX2.fasta.aln.trim.aln+COX3.fasta.aln.trim.aln+ND3.fasta.aln.trim.aln+ND4L.fasta.aln.trim.aln	0h:0m:3s (0h:0m:0s left)
+  35 GTR+F+I+G4   138219.766  2.648       CYTB.fasta.aln.trim.aln+ND1.fasta.aln.trim.aln+ND2.fasta.aln.trim.aln+ND4.fasta.aln.trim.aln+ND6.fasta.aln.trim.aln	0h:0m:3s (0h:0m:0s left)
+  36 GTR+F+I+G4   137800.880  2.353       ATP6.fasta.aln.trim.aln+COX2.fasta.aln.trim.aln+COX3.fasta.aln.trim.aln	0h:0m:3s (0h:0m:0s left)
+  37 GTR+F+I+G4   137818.357  2.982       ATP8.fasta.aln.trim.aln+ND1.fasta.aln.trim.aln+ND4.fasta.aln.trim.aln+ND5.fasta.aln.trim.aln	0h:0m:4s (0h:0m:0s left)
+2 compatible better partition pairs found
+Merging ATP6.fasta.aln.trim.aln+COX2.fasta.aln.trim.aln+COX3.fasta.aln.trim.aln with BIC score: 137800.880 (LnL: -68471.031  df: 91)
+Merging ATP8.fasta.aln.trim.aln+ND1.fasta.aln.trim.aln+ND4.fasta.aln.trim.aln+ND5.fasta.aln.trim.aln with BIC score: 137740.478 (LnL: -68492.737  df: 80)
+  38 GTR+F+I+G4   137690.648  2.250       ATP6.fasta.aln.trim.aln+COX1.fasta.aln.trim.aln+COX2.fasta.aln.trim.aln+COX3.fasta.aln.trim.aln+ND3.fasta.aln.trim.aln+ND4L.fasta.aln.trim.aln	0h:0m:4s (0h:0m:0s left)
+  39 GTR+F+I+G4   137662.747  1.497       rrnL.fasta.aln.trim.aln+rrnS.fasta.aln.trim.aln	0h:0m:5s (0h:0m:0s left)
+  40 GTR+F+I+G4   138135.590  2.758       ATP8.fasta.aln.trim.aln+CYTB.fasta.aln.trim.aln+ND1.fasta.aln.trim.aln+ND2.fasta.aln.trim.aln+ND4.fasta.aln.trim.aln+ND5.fasta.aln.trim.aln+ND6.fasta.aln.trim.aln	0h:0m:5s (0h:0m:0s left)
+2 compatible better partition pairs found
+Merging rrnL.fasta.aln.trim.aln+rrnS.fasta.aln.trim.aln with BIC score: 137662.747 (LnL: -68505.778  df: 69)
+Merging ATP6.fasta.aln.trim.aln+COX1.fasta.aln.trim.aln+COX2.fasta.aln.trim.aln+COX3.fasta.aln.trim.aln+ND3.fasta.aln.trim.aln+ND4L.fasta.aln.trim.aln with BIC score: 137612.917 (LnL: -68532.769  df: 58)
+Agglomerative model selection: (((ATP6.fasta.aln.trim.aln,(COX2.fasta.aln.trim.aln,COX3.fasta.aln.trim.aln)2:138072)8:137801,((COX1.fasta.aln.trim.aln,ND4L.fasta.aln.trim.aln)4:138024,ND3.fasta.aln.trim.aln)6:137889)11:137613,((ATP8.fasta.aln.trim.aln,ND5.fasta.aln.trim.aln)7:137879,(ND1.fasta.aln.trim.aln,ND4.fasta.aln.trim.aln)1:138151)9:137740,((CYTB.fasta.aln.trim.aln,ND6.fasta.aln.trim.aln)3:138036,ND2.fasta.aln.trim.aln)5:137952,(rrnL.fasta.aln.trim.aln,rrnS.fasta.aln.trim.aln)10:137663)
+Merging into 4 partitions...
+  41 HKY+F+I+G4   45477.274   2.231       ATP6.fasta.aln.trim.aln+COX1.fasta.aln.trim.aln+COX2.fasta.aln.trim.aln+COX3.fasta.aln.trim.aln+ND3.fasta.aln.trim.aln+ND4L.fasta.aln.trim.aln	0h:0m:5s (0h:0m:-1s left)
+  42 GTR+F+I+G4   47587.085   2.982       ATP8.fasta.aln.trim.aln+ND1.fasta.aln.trim.aln+ND4.fasta.aln.trim.aln+ND5.fasta.aln.trim.aln	0h:0m:6s (0h:0m:-1s left)
+  43 GTR+F+I+G4   30970.729   2.699       CYTB.fasta.aln.trim.aln+ND2.fasta.aln.trim.aln+ND6.fasta.aln.trim.aln	0h:0m:6s (0h:0m:-1s left)
+  44 HKY+F+G4     13364.347   1.439       rrnL.fasta.aln.trim.aln+rrnS.fasta.aln.trim.aln	0h:0m:6s (0h:0m:-1s left)
+Best partition model BIC score: 137581.217 (LnL: -68559.388  df:49)
+Partition information was printed to 9spwGla_mafft_trimmed.best_scheme.nex
+Partition information in Raxml format was printed to 9spwGla_mafft_trimmed.best_scheme
+
+All model information printed to 9spwGla_mafft_trimmed.model.gz
+CPU time for ModelFinder: 8.709 seconds (0h:0m:8s)
+Wall-clock time for ModelFinder: 8.768 seconds (0h:0m:8s)
+Generating 1000 samples for ultrafast bootstrap (seed: 78032)...
+
+NOTE: 19 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -68644.868
+Current log-likelihood at step 1: -68558.560
+Current log-likelihood at step 2: -68558.448
+Current log-likelihood at step 3: -68558.404
+Partition-specific rates:  0.900 1.210 1.086 0.585
+Parameters optimization took 2 rounds (0.215 sec)
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 3.8597e-05 secs using 93.27% CPU
+Computing ML distances took 0.000073 sec (of wall-clock time) 0.000076 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 4.2874e-05 secs using 95.63% CPU
+Constructing RapidNJ tree: done in 6.8769e-05 secs using 97.43% CPU
+Computing RapidNJ tree took 0.000159 sec (of wall-clock time) 0.000157 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -72353.622
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.535 second
+Computing log-likelihood of 83 initial trees ... 0.859 seconds
+Current best score: -68558.404
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -68558.404
+Current log-likelihood at step 1: -68558.378
+Parameters optimization took 0 rounds (0.043 sec)
+
+BETTER TREE FOUND at iteration 1: -68558.378
+Iteration 10 / LogL: -68559.714 / Time: 0h:0m:12s
+Iteration 20 / LogL: -68558.648 / Time: 0h:0m:14s
+Finish initializing candidate tree set (1)
+Current best tree score: -68558.378 / CPU time: 4.984
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -68558.378
+UPDATE BEST LOG-LIKELIHOOD: -68558.378
+Iteration 30 / LogL: -68558.767 / Time: 0h:0m:16s (0h:0m:19s left)
+UPDATE BEST LOG-LIKELIHOOD: -68558.378
+UPDATE BEST LOG-LIKELIHOOD: -68558.378
+Iteration 40 / LogL: -68560.020 / Time: 0h:0m:18s (0h:0m:15s left)
+Iteration 50 / LogL: -68558.916 / Time: 0h:0m:21s (0h:0m:12s left)
+Log-likelihood cutoff on original alignment: -68593.471
+Iteration 60 / LogL: -68560.753 / Time: 0h:0m:22s (0h:0m:9s left)
+Iteration 70 / LogL: -68559.391 / Time: 0h:0m:23s (0h:0m:6s left)
+Iteration 80 / LogL: -68558.477 / Time: 0h:0m:25s (0h:0m:4s left)
+Iteration 90 / LogL: -68578.458 / Time: 0h:0m:26s (0h:0m:2s left)
+Iteration 100 / LogL: -68559.472 / Time: 0h:0m:28s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -68593.471
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:28s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -68558.378
+Current log-likelihood at step 1: -68558.359
+Current log-likelihood at step 2: -68558.348
+Current log-likelihood at step 3: -68558.341
+Partition-specific rates:  0.901 1.209 1.088 0.586
+Parameters optimization took 2 rounds (0.127 sec)
+
+Partition information was printed to 9spwGla_mafft_trimmed.best_model.nex
+BEST SCORE FOUND : -68558.341
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Testing tree branches by aBayes parametric test...
+1.717 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file 9spwGla_mafft_trimmed.splits.nex
+Total tree length: 2.448
+
+Total number of iterations: 102
+CPU time used for tree search: 18.965 sec (0h:0m:18s)
+Wall-clock time used for tree search: 19.437 sec (0h:0m:19s)
+Total CPU time used: 30.293 sec (0h:0m:30s)
+Total wall-clock time used: 30.824 sec (0h:0m:30s)
+
+Computing bootstrap consensus tree...
+Reading input file 9spwGla_mafft_trimmed.splits.nex...
+9 taxa and 21 splits.
+Consensus tree written to 9spwGla_mafft_trimmed.contree
+Reading input trees file 9spwGla_mafft_trimmed.contree
+Log-likelihood of consensus tree: -68558.341
+
+Analysis results written to: 
+  IQ-TREE report:                9spwGla_mafft_trimmed.iqtree
+  Maximum-likelihood tree:       9spwGla_mafft_trimmed.treefile
+  Likelihood distances:          9spwGla_mafft_trimmed.mldist
+  Best partitioning scheme:      9spwGla_mafft_trimmed.best_scheme.nex
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          9spwGla_mafft_trimmed.splits.nex
+  Consensus tree:                9spwGla_mafft_trimmed.contree
+  Screen log file:               9spwGla_mafft_trimmed.log
+
+Date and Time: Wed Jun 17 16:57:46 2026
